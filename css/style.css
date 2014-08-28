@@ -295,11 +295,11 @@ iframe{
 }
 
 .icon-camera{
-	border: 2px solid white;
+	font-size: 75%;
 }
 
 .icon-camera:hover{
-	border: 2px solid #F1C628;
+	border: none;
 }
 
 /*+---------------------------+
@@ -339,18 +339,18 @@ figure{
 
 #footer{
 	background-color: #fff;
-	background-color: #fff;
 	padding: 2% 5%;
 	font-size: small;
-	position: relative;
-	box-shadow: 2px 2px 7px #aaa;
-	border-radius: 5px 5px 5px 5px;
+	height: 100px;
+	width: 660px;
+	margin: 0 auto;
+	border-top: 1px dashed #000;
 }
 
 #logos{
-	position: absolute;
-	right: 1em;
-	top: 1em;
+	display: table;
+	height: 100px;
+	float: right;
 }
 
 #logos img{
@@ -494,8 +494,8 @@ figure{
 	#container{
 		position: relative;
 		border: 0px solid black;
-		width: 90%;
-		margin: 5%;
+		width: 100%;
+		margin: 0%;
 	}
 	#google_translate_element{
 		display: none;
@@ -512,13 +512,13 @@ figure{
 	}
 
 	#logo{
-		width: 100%;
+		width: 400px;
+		height: 180px;
 		float: none;
 		position: absolute;
 		left: 0;
 		right: 0;
 		margin: auto;
-		top: 320px;
 	}
 
 	body#home #logo,
@@ -531,11 +531,7 @@ figure{
 	}
 
 	#logo img{
-		width: 500px;
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: auto;
+
 	}
 
 	#headerbg{
@@ -546,13 +542,7 @@ figure{
 	}
 
 	#info{
-		color: #000;
-		font-size: 1.5em;
-		position: absolute;
-		left: 0;
-		right: 0;
-		margin: auto;
-		top: 270px;
+		display: none;
 	}
 
 	#info a{
@@ -570,6 +560,7 @@ figure{
 	#toggle + label {
 		position:relative;
 		display: inline-block;
+		height: 180px;
 		float: right;
 		clear: none;
 		color: #777;
@@ -592,7 +583,7 @@ figure{
 	}
 
 	#toggle:checked + label{
-		color: #000;
+		color: #f1c628;
 	}
 
 	#toggle:checked + label:after {
@@ -600,28 +591,33 @@ figure{
 		content: "\2261";
 	}
 
+	#menufixer{
+		height: 180px;
+	}
+
 	#menu{
-		float: none;
 		position: relative;
 		left: 0px;
 		right: 0px;
-		height: 630px;
 		z-index: 1;
 		width: 100%;
 		display: none;
-		border-top: 0px solid #e5e5e5;
-		padding-top: 0px;
-		margin-top: 20px;
+		background-color: #000;
+	}
+
+	#menu ul{
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 	#menu li{
-		width: 100%;
-		display: list-item;
 		text-align: center;
 		height: auto;
-		margin-top: 1em;
 		padding-bottom: 3em;
-		border-bottom: 0px solid white;
+		border: 5px solid #000;
+		background-color: #111;
+		flex-grow: 1;
+		flex-basis: 30%;
 	}
 
 	#menu li:last-child{
@@ -655,7 +651,7 @@ figure{
 		border-bottom: 0px solid #F1C628;
 	}
 
-	body#home     #menu a#home:before,
+	/*body#home     #menu a#home:before,
 	body#formwork #menu a#formwork:before,
 	body#flatwork #menu a#flatwork:before,
 	body#safety   #menu a#safety:before,
@@ -675,7 +671,7 @@ figure{
 		content: " \21DC";
 		color: #F1C628;
 		font-weight: bold;
-	}
+	}*/
 
 
 /*+---------------------------+
@@ -723,22 +719,16 @@ figure{
 	#footer{
 		font-size: 0.6em;
 		display: table;
-		width: 90%;
+		width: 100%;
+		padding: 0;
 	}
 
 	#footer p{
-		display: table-cell;
 		width: 60%;
 	}
 
 	#footer #logos{
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto 0;
-		height: 100%;
-		width: 40%;
-		display: table;
+		float: right;
 	}
 
 	#footer #logos_c{
