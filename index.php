@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="css/style.css?v=1.0">
 	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link href="./lightbox/css/lightbox.css" rel="stylesheet" />
+	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
+	<script src="./lightbox/js/lightbox.min.js"></script>
 </head>
 
 <body id="home">
