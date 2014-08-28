@@ -89,13 +89,13 @@ abbr,acronym {
   text-transform: none;
 
   /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
+  line-height: 1.5em;
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
 
-  /* font-size: 120%; */
+  font-size: 250%;
 }
 
 .icon-home:before { content: '\e800'; display: block; margin:auto;} /* '\ue800' */
@@ -149,8 +149,10 @@ a:hover{
 
 #info{
 	color: #fff;
-	font-size: 0.8em;
-	text-align: center;
+	font-size: 1em;
+	position: absolute;
+	top: 63px;
+	right: 7px;
 }
 #info a{
 	color: #fff;
@@ -168,9 +170,10 @@ a:hover{
 
 #logo{
 	width: 200px;
-	height: 65px;
+	height: 100px;
 	float: right;
 	display: table;
+	margin-right: 20px;
 }
 
 #headerbg{
@@ -227,12 +230,7 @@ body#contact  #headerbg{ background-image: url("../img/header7.jpg"); }
 }
 
 #menu ul{
-	padding: 6px 0px 0px 0px;
-	width: 740px;
-	position: absolute;
-	right: 0;
-	left: 0;
-	margin: auto;
+
 }
 
 #menu li{
@@ -252,8 +250,7 @@ body#contact  #headerbg{ background-image: url("../img/header7.jpg"); }
 }
 
 #menu a:hover{
-	color: #fff;
-	border-bottom: 3px solid #F1C628;
+	color: #f1c628;
 }
 
 body#home     #menu a#home,
@@ -262,8 +259,7 @@ body#flatwork #menu a#flatwork,
 body#safety   #menu a#safety,
 body#careers  #menu a#careers,
 body#contact  #menu a#contact{
-	border-bottom: 3px solid #F1C628;
-	color: #fff;
+	color: #f1c628;
 }
 
 /*+---------------------------+
