@@ -6,9 +6,9 @@
 	<title>Cemrock - Concrete & Construction</title>
 	<meta name="description" content="Cemrock - Concrete & Construction">
 	<meta name="author" content="Daniel" >
-<!--  TRANSLATOR  -->
+<!--  TRANSLATOR
 	<meta name="google-translate-customization" content="9b3bcdeb78eb00d9-a933cce641ed61d0-gdaac4731108f988c-a"></meta>
-<!--  ##########  -->
+  ##########  -->
 	<link rel="stylesheet" href="css/style.css?v=1.0">
 	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -18,13 +18,13 @@
 
 	<div id="container">
 
-		<!--  TRANSLATOR  -->
+		<!--  TRANSLATOR
 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
 			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		<!--  ##########  -->
+		  ##########  -->
 
 		<div id="header">
 			<?php include 'header.html' ?>
