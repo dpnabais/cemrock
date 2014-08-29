@@ -15,13 +15,15 @@
 	<link href="./colorbox/colorbox.css" rel="stylesheet" />
 	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="./colorbox/jquery.colorbox-min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".gallery").colorbox({iframe:true, width:"80%", height:"80%"});
+		});
+	</script>
 </head>
 
 <body id="home">
-
-
 	<div id="container">
-
 		<!--  TRANSLATOR
 		<div id="google_translate_element"></div><script type="text/javascript">
 		function googleTranslateElementInit() {
@@ -29,7 +31,6 @@
 		}
 		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 		  ##########  -->
-
 		<div id="header">
 			<?php include 'header.html' ?>
 		</div>
@@ -118,8 +119,6 @@
 
 <script src="cssslidy.js"></script>
 <script>cssSlidy();</script>
-<script>
-	jQuery('a.gallery').colorbox();
-</script>
+
 </body>
 </html>
