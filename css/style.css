@@ -188,11 +188,11 @@ a:hover{
 }
 
 body#home     #headerbg{ background-image: url("../img/headers/header3.jpg"); }
-body#formwork #headerbg{ background-image: url("../img/header8.jpg");}
-body#flatwork #headerbg{ background-image: url("../img/header4.jpg");}
+body#formwork #headerbg{ background-image: url("../img/headers/header5.jpg");}
+body#flatwork #headerbg{ background-image: url("../img/headers/header4.jpg");}
 body#safety   #headerbg{ background-image: url("../img/headers/header1.jpg"); }
 body#careers  #headerbg{ background-image: url("../img/headers/header2.jpg");}
-body#contact  #headerbg{ background-image: url("../img/headers/header4.jpg"); }
+body#contact  #headerbg{ background-image: url("../img/headers/header6.jpg"); }
 
 #logo img{
 	width: 100%;
@@ -394,7 +394,7 @@ figure{
 		/*********************/
 
 @media all and (min-resolution: 2dppx) {
-
+/*@media all and (max-width: 650px) {*/
 /*+---------------------------+
   |          GENERAL          |
   +---------------------------+*/

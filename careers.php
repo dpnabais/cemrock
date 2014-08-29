@@ -9,7 +9,16 @@
 	<link rel="stylesheet" href="css/style.css?v=1.0">
 	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-
+	<link href="./lightbox/css/lightbox.css" rel="stylesheet" />
+	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
+	<script src="./lightbox/js/lightbox.min.js"></script>
+	<link href="./colorbox/colorbox.css" rel="stylesheet" />
+	<script src="./colorbox/jquery.colorbox-min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".gallery").colorbox({iframe:true, width:"80%", height:"80%"});
+		});
+	</script>
 
 </head>
 
