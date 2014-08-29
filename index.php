@@ -2,16 +2,19 @@
 
 <html lang="en">
 <head>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<!-- roboto font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 	<title>Cemrock - Concrete & Construction</title>
 	<meta name="description" content="Cemrock - Concrete & Construction">
 	<meta name="author" content="Daniel" >
-<!--  TRANSLATOR
+	<!--  TRANSLATOR
 	<meta name="google-translate-customization" content="9b3bcdeb78eb00d9-a933cce641ed61d0-gdaac4731108f988c-a"></meta>
-  ##########  -->
+  -->
+	<!-- css styles -->
 	<link rel="stylesheet" href="css/style.css?v=1.0">
-	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
+	<!-- favicon -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<!-- colorbox for privacy policy display -->
 	<link href="./colorbox/colorbox.css" rel="stylesheet" />
 	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="./colorbox/jquery.colorbox-min.js"></script>
@@ -24,18 +27,18 @@
 
 <body id="home">
 	<div id="container">
-		<!--  TRANSLATOR
-		<div id="google_translate_element"></div><script type="text/javascript">
-		function googleTranslateElementInit() {
-			new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-		}
-		</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-		  ##########  -->
+			<!--  TRANSLATOR
+			<div id="google_translate_element"></div><script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+			</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			  ##########  -->
 		<div id="header">
 			<?php include 'header.html' ?>
 		</div>
 
-	<div id="content">
+		<div id="content">
 
 		<!--#########  CONTENT ########## -->
 
@@ -57,24 +60,20 @@
 		<p>Contact us for your upcoming concrete projects.</br>
 			Email: <strong><a href="mailto:bids@cemrock.ca" data-rel="external">bids@cemrock.ca</a></strong></br>
 			Phone: <a href="tel:14032637168" data-rel="external">(403) 263-7168</a></br>
-			Fax: (403) 263-2391</p>
-		<p><strong>We look forward to working with you.</strong></p>
+			Fax: (403) 263-2391
+		</p>
+		<p>
+			<strong>We look forward to working with you.</strong>
+		</p>
 
-	<!--#########  /CONTENT ######### -->
+		<!--#########  /CONTENT ######### -->
 
+		</div>
 
+		<div id="footer">
+			<?php include 'footer.html' ?>
+		</div>
 
 	</div>
-
-	<div id="footer">
-		<?php include 'footer.html' ?>
-	</div>
-
-</div>
-
-</div>
-
-
-
 </body>
 </html>
