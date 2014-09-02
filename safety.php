@@ -23,7 +23,6 @@
 </head>
 
 <body id="safety">
-
 	<div id="container">
 		<div id="header">
 			<?php include 'header.html' ?>
