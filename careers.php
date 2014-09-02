@@ -2,24 +2,23 @@
 
 <html lang="en">
 <head>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<!-- roboto font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 	<title>Cemrock - Concrete & Construction</title>
 	<meta name="description" content="Cemrock - Concrete & Construction">
 	<meta name="author" content="Daniel" >
 	<link rel="stylesheet" href="css/style.css?v=1.0">
-	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
+	<!-- favicon -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="./lightbox/css/lightbox.css" rel="stylesheet" />
-	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="./lightbox/js/lightbox.min.js"></script>
+	<!-- colorbox for privacy policy display -->
 	<link href="./colorbox/colorbox.css" rel="stylesheet" />
+	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="./colorbox/jquery.colorbox-min.js"></script>
 	<script>
 		$(document).ready(function(){
 			$(".gallery").colorbox({iframe:true, width:"80%", height:"80%"});
 		});
 	</script>
-
 </head>
 
 <body id="careers">

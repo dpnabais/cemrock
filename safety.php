@@ -2,17 +2,18 @@
 
 <html lang="en">
 <head>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<!-- roboto font -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 	<title>Cemrock - Concrete & Construction</title>
 	<meta name="description" content="Cemrock - Concrete & Construction">
 	<meta name="author" content="Daniel" >
+	<!-- css styles -->
 	<link rel="stylesheet" href="css/style.css?v=1.0">
-	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
+	<!-- favicon -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="./lightbox/css/lightbox.css" rel="stylesheet" />
-	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="./lightbox/js/lightbox.min.js"></script>
+	<!-- colorbox for privacy policy display -->
 	<link href="./colorbox/colorbox.css" rel="stylesheet" />
+	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="./colorbox/jquery.colorbox-min.js"></script>
 	<script>
 		$(document).ready(function(){
@@ -54,11 +55,11 @@
 
 				<ul>
 					<li><a href="./files/ISN Certificate of Membership.pdf">ISN Certificate of Membership</a></li>
-					<li><a href="./files/Alberta Construction Safety Association 2016 200dpi.PDF">Alberta Construction Safety Association</a></li>
-					<li><a href="./files/BBB Acredited Business 2014 200dpi.PDF">BBB Acredited Business</a></li>
-					<li><a href="./files/Calgary Construction Association Membership 2014 200dpi.PDF">Calgary Construction Association Membership</a></li>
-					<li><a href="./files/Cemrock Flatwork Business Licence 2015 200dpi.PDF">Cemrock Flatwork Business Licence</a></li>
-					<li><a href="./files/Cemrock Formwork Business Licence 2014 200dpi.PDF">Cemrock Formwork Business Licence</a></li>
+					<li><a href="./files/Alberta Construction Safety Association 2016 200dpi.pdf">Alberta Construction Safety Association</a></li>
+					<li><a href="./files/BBB Acredited Business 2014 200dpi.pdf">BBB Acredited Business</a></li>
+					<li><a href="./files/Calgary Construction Association Membership 2014 200dpi.pdf">Calgary Construction Association Membership</a></li>
+					<li><a href="./files/Cemrock Flatwork Business Licence 2015 200dpi.pdf">Cemrock Flatwork Business Licence</a></li>
+					<li><a href="./files/Cemrock Formwork Business Licence 2014 200dpi.pdf">Cemrock Formwork Business Licence</a></li>
 				</ul>
 			</p>
 

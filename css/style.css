@@ -154,9 +154,11 @@ a:hover{
 	top: 73px;
 	right: 7px;
 }
+
 #info a{
 	color: #fff;
 }
+
 #info a:hover{
 	border: none;
 	color: #f1c628;
@@ -197,6 +199,7 @@ a:hover{
 	height: 100%;
 	background-size: cover;
 }
+
 #headerbg div.active{
 	z-index: 10;
 }
@@ -204,15 +207,6 @@ a:hover{
 #headerbg div.last-active {
 	z-index: 9;
 }
-
-/*
-body#home     #headerbg{ background-image: url("../img/headers/header3.jpg"); }
-*/
-body#formwork #headerbg{ background-image: url("../img/headers/header5.jpg");}
-body#flatwork #headerbg{ background-image: url("../img/headers/header4.jpg");}
-body#safety   #headerbg{ background-image: url("../img/headers/header1.jpg"); }
-body#careers  #headerbg{ background-image: url("../img/headers/header2.jpg");}
-body#contact  #headerbg{ background-image: url("../img/headers/header6.jpg"); }
 
 #logo img{
 	width: 100%;
@@ -226,6 +220,7 @@ body#contact  #headerbg{ background-image: url("../img/headers/header6.jpg"); }
 /*+---------------------------+
   |          MENU             |
   +---------------------------+*/
+
 #menufixer{
 	position: fixed;
 	width: 100%;
@@ -250,10 +245,6 @@ body#contact  #headerbg{ background-image: url("../img/headers/header6.jpg"); }
 .helper{
 	display: table-cell;
 	vertical-align: middle;
-}
-
-#menu ul{
-
 }
 
 #menu li{
@@ -347,7 +338,9 @@ iframe{
 	width: 2031px;
 }
 
-#slidy-container figcaption { font-size: 1rem !important; }
+#slidy-container figcaption{
+	font-size: 1rem !important;
+}
 
 figure{
 	margin: 0px;
@@ -400,7 +393,6 @@ figure{
 	font-weight: bold;
 }
 
-
 #privacy li{
 	list-style: initial;
 	margin-left: 2em;
@@ -434,9 +426,6 @@ figure{
 		width: 100%;
 		margin: 0%;
 	}
-	#google_translate_element{
-		display: none;
-	}
 
 /*+---------------------------+
   |          HEADER           |
@@ -465,10 +454,6 @@ figure{
 	body#careers #logo,
 	body#contact #logo{
 		background-image: none;
-	}
-
-	#logo img{
-
 	}
 
 	#headerbg{
@@ -587,29 +572,6 @@ figure{
 		border-bottom: 0px solid #F1C628;
 	}
 
-	/*body#home     #menu a#home:before,
-	body#formwork #menu a#formwork:before,
-	body#flatwork #menu a#flatwork:before,
-	body#safety   #menu a#safety:before,
-	body#careers  #menu a#careers:before,
-	body#contact  #menu a#contact:before{
-		content: "\21DD";
-		color: #F1C628;
-		font-weight: bold;
-	}
-
-	body#home     #menu a#home:after,
-	body#formwork #menu a#formwork:after,
-	body#flatwork #menu a#flatwork:after,
-	body#safety   #menu a#safety:after,
-	body#careers  #menu a#careers:after,
-	body#contact  #menu a#contact:after{
-		content: " \21DC";
-		color: #F1C628;
-		font-weight: bold;
-	}*/
-
-
 /*+---------------------------+
   |          CONTENT          |
   +---------------------------+*/
@@ -619,12 +581,15 @@ figure{
 		border-top-width: 20px;
 		padding: 30px 0px;
 	}
+
 	#content ul{
 		margin: 0px 40px;
 	}
+
 	#content ul li{
 		font-size: 3em;
 	}
+	
 	iframe{
 		float: none;
 		width: 90%;

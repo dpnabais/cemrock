@@ -7,10 +7,6 @@
 	<title>Cemrock - Concrete & Construction</title>
 	<meta name="description" content="Cemrock - Concrete & Construction">
 	<meta name="author" content="Daniel" >
-	<!--  TRANSLATOR
-	<meta name="google-translate-customization" content="9b3bcdeb78eb00d9-a933cce641ed61d0-gdaac4731108f988c-a"></meta>
-  -->
-	<!-- css styles -->
 	<link rel="stylesheet" href="css/style.css?v=1.0">
 	<!-- favicon -->
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
