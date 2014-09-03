@@ -5,7 +5,7 @@
 	<?php include 'includes/head.inc' ?>
 </head>
 
-<body id="careers">
+<body class="careers">
 
 	<div id="container">
 		<div id="header">

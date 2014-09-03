@@ -26,7 +26,7 @@
   <div class="helper">
   <img src="img/logo_cr_t2.png" width="412" height="136" alt="Cemrock logo">
 </div></div>
-<p id="info"><a href="http://www.maps.google.com/?q=121, 2432, 48 Street SE, Calgary" target="_blank">#121, 2432 - 48 Street SE, Calgary, AB T2B 1M4</a> - (403) 263-7168</p>
+<p id="info"><a href="http://www.maps.google.com/?q=121,%202432,%2048%20Street%20SE,%20Calgary" target="_blank">#121, 2432 - 48 Street SE, Calgary, AB T2B 1M4</a> - (403) 263-7168</p>
 
 </div>
 
@@ -48,7 +48,7 @@
   shuffle($images);
   #spit out all the <div>s
   for ($i = 0; $i < count($images); $i++){
-    echo "<div style=\"background-image: url('.\/img\/headers\/".$images[$i]."');\" /></div>";
+    echo "<div style=\"background-image: url('.\/img\/headers\/".$images[$i]."');\"></div>";
   }
 ?>
 </div>

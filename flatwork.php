@@ -5,7 +5,7 @@
 	<?php include 'includes/head.inc' ?>
 </head>
 
-<body id="flatwork">
+<body class="flatwork">
 
 	<div id="container">
 		<div id="header">

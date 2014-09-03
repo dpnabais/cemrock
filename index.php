@@ -5,15 +5,9 @@
 	<?php include 'includes/head.inc' ?>
 </head>
 
-<body id="home">
+<body class="home">
 	<div id="container">
-			<!--  TRANSLATOR
-			<div id="google_translate_element"></div><script type="text/javascript">
-			function googleTranslateElementInit() {
-				new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-			}
-			</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-			  ##########  -->
+
 		<div id="header">
 			<?php include 'includes/header.inc' ?>
 		</div>
@@ -35,11 +29,11 @@
 			<li>Quick Response Estimating (Budgets, Bidding, Revisions)</li>
 			<li>Thorough Planning/Organization (Schedules, Submissions)</li>
 		</ul>
-		</br>
-		</br>
-		<p>Contact us for your upcoming concrete projects.</br>
-			Email: <strong><a href="mailto:bids@cemrock.ca" data-rel="external">bids@cemrock.ca</a></strong></br>
-			Phone: <a href="tel:14032637168" data-rel="external">(403) 263-7168</a></br>
+		<br>
+		<br>
+		<p>Contact us for your upcoming concrete projects.<br>
+			Email: <strong><a href="mailto:bids@cemrock.ca" data-rel="external">bids@cemrock.ca</a></strong><br>
+			Phone: <a href="tel:14032637168" data-rel="external">(403) 263-7168</a><br>
 			Fax: (403) 263-2391
 		</p>
 		<p>

@@ -1,3 +1,4 @@
+<meta charset="utf-8"/>
 <!-- font -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 <title>Cemrock - Concrete & Construction</title>

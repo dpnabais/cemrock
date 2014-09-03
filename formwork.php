@@ -5,7 +5,7 @@
 	<?php include 'includes/head.inc' ?>
 </head>
 
-<body id="formwork">
+<body class="formwork">
 
 	<div id="container">
 		<div id="header">

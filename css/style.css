@@ -268,12 +268,12 @@ a:hover{
 	color: #f1c628;
 }
 
-body#home     #menu a#home,
-body#formwork #menu a#formwork,
-body#flatwork #menu a#flatwork,
-body#safety   #menu a#safety,
-body#careers  #menu a#careers,
-body#contact  #menu a#contact{
+body.home     #menu a#home,
+body.formwork #menu a#formwork,
+body.flatwork #menu a#flatwork,
+body.safety   #menu a#safety,
+body.careers  #menu a#careers,
+body.contact  #menu a#contact{
 	color: #f1c628;
 }
 

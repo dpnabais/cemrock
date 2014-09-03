@@ -5,7 +5,7 @@
 	<?php include 'includes/head.inc' ?>
 </head>
 
-<body id="safety">
+<body class="safety">
 	<div id="container">
 		<div id="header">
 			<?php include 'includes/header.inc' ?>
