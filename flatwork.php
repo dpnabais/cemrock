@@ -2,66 +2,30 @@
 
 <html lang="en">
 <head>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-	<title>Cemrock - Concrete & Construction</title>
-	<meta name="description" content="Cemrock - Concrete & Construction">
-	<meta name="author" content="Daniel" >
-	<link rel="stylesheet" href="css/style.css?v=1.0">
-	<link rel="shortcut icon" href="lfavicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="./lightbox/css/lightbox.css" rel="stylesheet" />
-	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="./lightbox/js/lightbox.min.js"></script>
-	<link href="./colorbox/colorbox.css" rel="stylesheet" />
-	<script src="./colorbox/jquery.colorbox-min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$(".gallery").colorbox({iframe:true, width:"80%", height:"80%"});
-		});
-	</script>
+	<?php include 'includes/head.inc' ?>
 </head>
 
 <body id="flatwork">
 
 	<div id="container">
 		<div id="header">
-			<?php include 'header.html' ?>
+			<?php include 'includes/header.inc' ?>
 		</div>
 
 	<div id="content">
-
+		<!--############################# -->
 		<!--#########  CONTENT ########## -->
 
 		<h1>Flatwork Projects</h1>
 
-		<div id="slidy-container">
-			<div id="slidy">
-				<img src="img/slide-26.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-27.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-28.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-29.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-30.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-31.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-32.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-33.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-34.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-35.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-36.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-37.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-38.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-39.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-40.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-				<img src="img/slide-41.jpg" alt data-caption="&copy; Cemrock Concrete & Construction">
-			</div>
-		</div>
-
-
-
-
 		<p>Cemrock Flatwork Division specializes in providing concrete sitework
 			for industrial, commercial and multi-residential developments.</p>
 
-		<p>This includes but is not limited to:</p>
+		<p>This includes but is not limited to:
+		<a href="./img/big/comProj01.jpg" class="icon-camera cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
+		<a href="./img/big/comProj02.jpg" class="cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
+		<a href="./img/big/comProj03.jpg" class="cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
+		</p>
 
 		<ul>
 			<li>Suspended Slabs</li>
@@ -74,17 +38,14 @@
 		</ul>
 
 	<!--#########  /CONTENT ######### -->
-
+	<!--############################# -->
 	</div>
 
 	<div id="footer">
-		<?php include 'footer.html' ?>
+		<?php include 'includes/footer.inc' ?>
 	</div>
 
 </div>
-
-<script src="cssslidy.js"></script>
-<script>cssSlidy();</script>
 
 </body>
 </html>

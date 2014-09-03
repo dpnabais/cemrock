@@ -2,34 +2,18 @@
 
 <html lang="en">
 <head>
-	<!-- roboto font -->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-	<title>Cemrock - Concrete & Construction</title>
-	<meta name="description" content="Cemrock - Concrete & Construction">
-	<meta name="author" content="Daniel" >
-	<link rel="stylesheet" href="css/style.css?v=1.0">
-	<!-- favicon -->
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- colorbox for privacy policy display -->
-	<link href="./colorbox/colorbox.css" rel="stylesheet" />
-	<script src="./lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="./colorbox/jquery.colorbox-min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$(".gallery").colorbox({iframe:true, width:"80%", height:"80%"});
-		});
-	</script>
+	<?php include 'includes/head.inc' ?>
 </head>
 
 <body id="careers">
 
 	<div id="container">
 		<div id="header">
-			<?php include 'header.html' ?>
+			<?php include 'includes/header.inc' ?>
 		</div>
 
 	<div id="content">
-
+		<!--############################# -->
 		<!--#########  CONTENT ########## -->
 
 		<h1>Careers</h1>
@@ -49,11 +33,11 @@
 		<p>Fax: (403) 263 2391</p>
 
 		<!--#########  /CONTENT ######### -->
-
+		<!--############################# -->
 	</div>
 
 	<div id="footer">
-		<?php include 'footer.html' ?>
+		<?php include 'includes/footer.inc' ?>
 	</div>
 
 </div>
