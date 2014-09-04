@@ -12,4 +12,4 @@ features:
 - colorbox powered overlays for images and html
 
 
-![screenshot](/img/screenshot.jpg?raw=true "Screenshot")
+![screenshot](/img/Screenshot.jpg?raw=true "Screenshot")
