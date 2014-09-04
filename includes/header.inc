@@ -35,20 +35,20 @@
 
 <!-- build the divs in random order -->
 <?php
-  #open the working directory into $dir
-  $dir  = opendir("./img/headers");
-  #store ALL the files in $files[]
-  while (($filename = readdir($dir)) !==false) {
-    $files[] = $filename;
-  }
-  #take only .jpg into $images[]
-  $images=preg_grep ('/\.jpg$/i', $files);
-  #randomize!
-  shuffle($images);
-  #spit out all the <div>s
-  for ($i = 0; $i < count($images); $i++){
-    echo "<div style=\"background-image: url('.\/img\/headers\/".$images[$i]."');\"></div>";
-  }
+    #open the working directory into $dir
+    $dir  = opendir("./img/headers");
+    #store ALL the files in $files[]
+    while (($filename = readdir($dir)) !==false) {
+      $files[] = $filename;
+    }
+    #take only .jpg into $images[]
+    $images=preg_grep ('/\.jpg$/i', $files);
+    #randomize!
+    shuffle($images);
+    #spit out all the <div>s
+    for ($i = 0; $i < count($images); $i++){
+      echo "<div style=\"background-image: url('.\/img\/headers\/".$images[$i]."');\"></div>";
+    }
 ?>
 </div>
 

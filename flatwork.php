@@ -1,3 +1,8 @@
+<?php
+ini_set('display_errors', 'On');
+error_reporting(E_ALL | E_STRICT);
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -21,11 +26,24 @@
 		<p>Cemrock Flatwork Division specializes in providing concrete sitework
 			for industrial, commercial and multi-residential developments.</p>
 
-		<p>This includes but is not limited to:
-		<a href="./img/big/comProj01.jpg" class="icon-camera cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
-		<a href="./img/big/comProj02.jpg" class="cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
-		<a href="./img/big/comProj03.jpg" class="cboxElement gallery" rel="flatProj" title="Flatwork Projects"></a>
-		</p>
+<?php
+		#open the working directory into $dir
+		$dir1  = opendir("./img/big/flatwork");
+		#store ALL the files in $files[]
+		while (($filename1 = readdir($dir1)) !==false) {
+			$files1[] = $filename1;
+		}
+		#take only .jpg into $images[]
+		$images1 = preg_grep ('/\.jpg$/i', $files1);
+		$images2 = array_values($images1);
+		#spit out all the pics
+		echo "<p>This includes but is not limited to:";
+		for ($j = 0; $j < count($images2); $j++){
+			echo "<a href=\".\/img\/big\/flatwork\/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+		}
+		echo "</p>";
+?>
+
 
 		<ul>
 			<li>Suspended Slabs</li>
