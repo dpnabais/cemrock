@@ -656,19 +656,4 @@ figure{
 		font-size: 3em;
 	}
 
-	.cancel{
-		position: fixed;
-		top: 1em;
-		right: 0.5em;
-		height: 110px;
-		width: 110px;
-		font-size: 8em;
-		background-color: #fff;
-		border: 5px solid #ccc;
-		border-radius: 60px;
-		line-height: 1em;
-		z-index: 1;
-		color: #000;
-	}
-
 }
