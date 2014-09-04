@@ -35,14 +35,13 @@
 
 <!-- build the divs in random order -->
 <?php
-  #get and open the working /dir
-  $dir = "./img/headers";
-  $dh  = opendir($dir);
-  #store files in $files[]
-  while (($filename = readdir($dh)) !==false) {
+  #open the working directory into $dir
+  $dir  = opendir("./img/headers");
+  #store ALL the files in $files[]
+  while (($filename = readdir($dir)) !==false) {
     $files[] = $filename;
   }
-  #store .jpg in $images[]
+  #take only .jpg into $images[]
   $images=preg_grep ('/\.jpg$/i', $files);
   #randomize!
   shuffle($images);
