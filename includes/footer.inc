@@ -8,8 +8,12 @@
   </div>
 </div>
 
-
-<p>Copyright 2014 &copy; Cemrock Concrete &amp; Construction<br>
-    All Rights Reserved <br><br>
-    <a href="privacy.html" class="gallery cboxElement" id="privacy_link">Privacy Policy</a>
+<p>
+  Copyright 2014 &copy; Cemrock Concrete &amp; Construction
+  <br>
+  All Rights Reserved
+  <br><br>
+  <a href="privacy.html" class="gallery cboxElement" id="privacy_link">
+    Privacy Policy
+  </a>
 </p>
