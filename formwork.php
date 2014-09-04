@@ -16,14 +16,47 @@
 		<!--############################# -->
 		<!--#########  CONTENT ########## -->
 
+	<?php
+		$path1 = "./img/big/formwork/com";
+		$path2 = "./img/big/formwork/ins";
+		$path3 = "./img/big/formwork/mul";
+		$path4 = "./img/big/formwork/ind";
+		$path5 = "./img/big/formwork/leed";
+
+		$dir1  = opendir($path1);
+		$dir2  = opendir($path2);
+		$dir3  = opendir($path3);
+		$dir4  = opendir($path4);
+		$dir5  = opendir($path5);
+
+		while (($filename1 = readdir($dir1)) !==false) { $files1[] = $filename1; }
+		while (($filename2 = readdir($dir2)) !==false) { $files2[] = $filename2; }
+		while (($filename3 = readdir($dir3)) !==false) { $files3[] = $filename3; }
+		while (($filename4 = readdir($dir4)) !==false) { $files4[] = $filename4; }
+		while (($filename5 = readdir($dir5)) !==false) { $files5[] = $filename5; }
+
+		$images1 = preg_grep ('/\.jpg$/i', $files1);
+		$images2 = preg_grep ('/\.jpg$/i', $files2);
+		$images3 = preg_grep ('/\.jpg$/i', $files3);
+		$images4 = preg_grep ('/\.jpg$/i', $files4);
+		$images5 = preg_grep ('/\.jpg$/i', $files5);
+
+		$images11 = array_values($images1);
+		$images22 = array_values($images2);
+		$images33 = array_values($images3);
+		$images44 = array_values($images4);
+		$images55 = array_values($images5);
+	?>
+
 		<h1>Formwork Projects</h1>
 
 		<p><strong>Cemrock Formwork Division</strong> has successfully completed a wide array of concrete projects including:</p>
 
 		<p><u>Commercial Projects</u>
-			<a href="./img/big/comProj01.jpg" class="icon-camera cboxElement gallery" rel="comProj" title="Commercial Projects"></a>
-			<a href="./img/big/comProj02.jpg" class="cboxElement gallery" rel="comProj" title="Commercial Projects"></a>
-			<a href="./img/big/comProj03.jpg" class="cboxElement gallery" rel="comProj" title="Commercial Projects"></a>
+			<?php
+					for ($j = 0; $j < count($images11); $j++){
+						echo "<a href=\"".$path1."\/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+					}	?>
 		</p>
 		<ul>
 			<li>Multilevel office developments</li>
@@ -33,8 +66,10 @@
 			<li>Retaining Walls</li>
 		</ul>
 		<p><u>Institutional Projects</u>
-		<a href="./img/big/insProj01.jpg" class="icon-camera cboxElement gallery" rel="insProj" title="Institutional Projects"></a>
-		<a href="./img/big/insProj02.jpg" class="cboxElement gallery" rel="insProj" title="Institutional Projects"></a>
+		<?php
+				for ($j = 0; $j < count($images22); $j++){
+					echo "<a href=\"".$path2."\/".$images22[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+				}	?>
 		</p>
 		<ul>
 			<li>Municipal Facilities</li>
@@ -42,16 +77,19 @@
 			<li>Schools (K - 12)</li>
 		</ul>
 		<p><u>Multidwelling Residential Projects</u>
-		<a href="./img/big/mulProj01.jpg" class="icon-camera cboxElement gallery" rel="mulProj" title="Multidwelling Residential Projects"></a>
-		<a href="./img/big/mulProj02.jpg" class="cboxElement gallery" rel="mulProj" title="Multidwelling Residential Projects"></a>
+		<?php
+				for ($j = 0; $j < count($images33); $j++){
+					echo "<a href=\"".$path3."\/".$images33[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+				}	?>
 		</p>
 		<ul>
 			<li> Multilevel condominium development</li>
 		</ul>
 		<p><u>Industrial Projects</u>
-		<a href="./img/big/indProj01.jpg" class="icon-camera cboxElement gallery" rel="indProj" title="Industrial Projects"></a>
-		<a href="./img/big/indProj02.jpg" class="cboxElement gallery" rel="indProj" title="Industrial Projects"></a>
-		<a href="./img/big/indProj03.jpg" class="cboxElement gallery" rel="indProj" title="Industrial Projects"></a>
+		<?php
+				for ($j = 0; $j < count($images44); $j++){
+					echo "<a href=\"".$path4."\/".$images44[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+				}	?>
 		</p>
 		<ul>
 			<li>Calgary West LRT</li>
@@ -59,11 +97,10 @@
 			<li>City of Airdrie Northeast Reservoir & Pump Station</li>
 		</ul>
 		<p><u>LEED (Leadership in Energy and Environmental Design) certified Projects</u>
-		<a href="./img/big/leedProj01.jpg" class="icon-camera cboxElement gallery" rel="leedProj" title="LEED certified Projects"></a>
-		<a href="./img/big/leedProj02.jpg" class="cboxElement gallery" rel="leedProj" title="LEED certified Projects"></a>
-		<a href="./img/big/leedProj03.jpg" class="cboxElement gallery" rel="leedProj" title="LEED certified Projects"></a>
-		<a href="./img/big/leedProj04.jpg" class="cboxElement gallery" rel="leedProj" title="LEED certified Projects"></a>
-		<a href="./img/big/leedProj05.jpg" class="cboxElement gallery" rel="leedProj" title="LEED certified Projects"></a>
+		<?php
+				for ($j = 0; $j < count($images55); $j++){
+					echo "<a href=\"".$path5."\/".$images55[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+				}	?>
 		</p>
 		<ul>
 			<li>University of Calgary Veterinary Medicine Clinical Facility</li>
