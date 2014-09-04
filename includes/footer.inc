@@ -1,3 +1,10 @@
+<!-- <footer> content                               -->
+<!-- contains copyright information, logos and      -->
+<!-- privacy policy link                            -->
+<!-- To be included in every page                   -->
+
+
+
 <div id="logos">
   <div class="helper">
     <a href="http://workforcecompliancesafety.ca" target="_blank"><img src="img/logo_cor.jpg" alt=""></a>

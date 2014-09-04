@@ -1,4 +1,7 @@
-<!-- dpnabais -->
+<!-- <header> content                              -->
+<!-- contains the Menu, logo and animated banner   -->
+<!-- to be included in every page                  -->
+
 
 <!-- make the menu fixed on the top of the page -->
 <div id="menufixer">

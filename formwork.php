@@ -17,30 +17,31 @@
 		<!--#########  CONTENT ########## -->
 
 	<?php
+		#store folders in $pathX
 		$path1 = "./img/big/formwork/com";
 		$path2 = "./img/big/formwork/ins";
 		$path3 = "./img/big/formwork/mul";
 		$path4 = "./img/big/formwork/ind";
 		$path5 = "./img/big/formwork/leed";
-
+		#open folders to $dirX
 		$dir1  = opendir($path1);
 		$dir2  = opendir($path2);
 		$dir3  = opendir($path3);
 		$dir4  = opendir($path4);
 		$dir5  = opendir($path5);
-
+		#read the folders and retrieve the files to $filesX[]
 		while (($filename1 = readdir($dir1)) !==false) { $files1[] = $filename1; }
 		while (($filename2 = readdir($dir2)) !==false) { $files2[] = $filename2; }
 		while (($filename3 = readdir($dir3)) !==false) { $files3[] = $filename3; }
 		while (($filename4 = readdir($dir4)) !==false) { $files4[] = $filename4; }
 		while (($filename5 = readdir($dir5)) !==false) { $files5[] = $filename5; }
-
+		#get only .jpg from $filesX[] and store them in $imagesX[]
 		$images1 = preg_grep ('/\.jpg$/i', $files1);
 		$images2 = preg_grep ('/\.jpg$/i', $files2);
 		$images3 = preg_grep ('/\.jpg$/i', $files3);
 		$images4 = preg_grep ('/\.jpg$/i', $files4);
 		$images5 = preg_grep ('/\.jpg$/i', $files5);
-
+		#re-index the $imagesX[] and store them iin $imagesXX[]
 		$images11 = array_values($images1);
 		$images22 = array_values($images2);
 		$images33 = array_values($images3);
@@ -54,6 +55,8 @@
 
 		<p><u>Commercial Projects</u>
 			<?php
+					#for the length of $imagesXX[], spit out <a href...>
+					#for the first one, add class 'icon-camera' using ((condition)?'true':'false')
 					for ($j = 0; $j < count($images11); $j++){
 						echo "<a href=\"".$path1."\/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
 					}	?>

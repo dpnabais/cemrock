@@ -1,3 +1,8 @@
+<!-- <head> content, to be included in every page -->
+<!-- contains font link, css link,                -->
+<!-- author + description, favicon, colorbox link -->
+<!-- and init                                     -->
+
 <meta charset="utf-8"/>
 <!-- font -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
