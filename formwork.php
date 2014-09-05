@@ -53,12 +53,12 @@
 
 		<p><strong>Cemrock Formwork Division</strong> has successfully completed a wide array of concrete projects including:</p>
 
-		<p><u>Commercial Projects</u>
+		<p><u>Commercial Projects (including LEED projects)</u>
 			<?php
 					#for the length of $imagesXX[], spit out <a href...>
 					#for the first one, add class 'icon-camera' using ((condition)?'true':'false')
 					for ($j = 0; $j < count($images11); $j++){
-						echo "<a href=\"".$path1."\/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+						echo "<a href=\"".$path1."\/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"comProj\" title=\"Flatwork Projects\"></a>";
 					}	?>
 		</p>
 		<ul>
@@ -71,7 +71,7 @@
 		<p><u>Institutional Projects</u>
 		<?php
 				for ($j = 0; $j < count($images22); $j++){
-					echo "<a href=\"".$path2."\/".$images22[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+					echo "<a href=\"".$path2."\/".$images22[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"mulProj\" title=\"Flatwork Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
@@ -82,7 +82,7 @@
 		<p><u>Multidwelling Residential Projects</u>
 		<?php
 				for ($j = 0; $j < count($images33); $j++){
-					echo "<a href=\"".$path3."\/".$images33[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+					echo "<a href=\"".$path3."\/".$images33[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"munProj\" title=\"Flatwork Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
@@ -91,31 +91,13 @@
 		<p><u>Industrial Projects</u>
 		<?php
 				for ($j = 0; $j < count($images44); $j++){
-					echo "<a href=\"".$path4."\/".$images44[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+					echo "<a href=\"".$path4."\/".$images44[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"indProj\" title=\"Flatwork Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
 			<li>Calgary West LRT</li>
 			<li>Water Treatment Plants</li>
 			<li>City of Airdrie Northeast Reservoir & Pump Station</li>
-		</ul>
-		<p><u>LEED (Leadership in Energy and Environmental Design) certified Projects</u>
-		<?php
-				for ($j = 0; $j < count($images55); $j++){
-					echo "<a href=\"".$path5."\/".$images55[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
-				}	?>
-		</p>
-		<ul>
-			<li>University of Calgary Veterinary Medicine Clinical Facility</li>
-			<li>City of Calgary Firehall #33 </li>
-			<li>Westmount Office Park Building #2</li>
-			<li>City of Calgary Fire Dept. Apparatus Repair & Storage Facility</li>
-			<li>Harvest Hills Office Park - Building A</li>
-			<li>University of Calgary Taylor Family Digital Library</li>
-			<li>Calgary West LRT</li>
-			<li>City of Calgary Saddleridge Tri-services Building</li>
-			<li>University of Calgary CCIT Building Expansion</li>
-			<li>Calgary Courts Centre - Phase 2 Parkade</li>
 		</ul>
 
 	<!--#########  /CONTENT ######### -->
