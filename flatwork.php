@@ -39,7 +39,7 @@ error_reporting(E_ALL | E_STRICT);
 		#spit out all the pics
 		echo "<p>This includes but is not limited to:";
 		for ($j = 0; $j < count($images2); $j++){
-			echo "<a href=\".\/img\/big\/flatwork\/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+			echo "<a href=\"./img/big/flatwork/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
 		}
 		echo "</p>";
 ?>

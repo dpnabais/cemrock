@@ -408,7 +408,7 @@ figure{
 		 /***               ***/
 		/*********************/
 
-@media all and (min-resolution: 2dppx) {
+@media all and (min-resolution: 150dpi) {
 /*@media all and (max-width: 650px) {*/
 /*+---------------------------+
   |          GENERAL          |
