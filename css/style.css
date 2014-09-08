@@ -302,9 +302,11 @@ body.contact  #menu a#contact{
 	list-style-type: circle;
 }
 
-iframe{
+iframe, #map-canvas{
 	float: right;
 	box-shadow: 0px 0px 5px #F0EDE5;
+	width: 400px;
+	height: 300px;
 }
 
 .float_left{

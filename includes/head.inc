@@ -19,7 +19,7 @@
     echo "<link rel='stylesheet' href='css/style.css?v=1.0'>";
   }
 ?>
-<!-- icon -->
+<!-- favIcon -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- colorBox -->
 <script src="./colorbox/jquery-1.11.0.min.js"></script>

@@ -65,12 +65,12 @@
     $active.addClass('last-active');
     $next.css({opacity: 0.0})
       .addClass('active')
-      .animate({opacity: 1.0}, 800, function() {
+      .animate({opacity: 1.0}, 750, function() {
         $active.removeClass('active last-active');
       });
   }
 
   $(function() {
-    setInterval( "slideSwitch()", 3800 );
+    setInterval( "slideSwitch()", 4000 );
   });
 </script>

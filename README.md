@@ -4,7 +4,7 @@ cemrock
 prototype v3
 
 features:
-- desktop + mobile layout using media queries
+- mobile detection using Mobile_Detect.php
 - dynamic image galeries that fetch content from predefined folders
 - custom google font (Roboto)
 - custom fontello icons
