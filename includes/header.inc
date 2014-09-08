@@ -71,6 +71,6 @@
   }
 
   $(function() {
-    setInterval( "slideSwitch()", 2800 );
+    setInterval( "slideSwitch()", 3800 );
   });
 </script>

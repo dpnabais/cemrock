@@ -320,38 +320,6 @@ iframe{
 	border: none;
 }
 
-/*+---------------------------+
-  |          SLIDER           |
-  +---------------------------+*/
-
-#slidy-container{
-	width: 333px;
-	height: 250px;
-	float: right;
-	clear: right;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	border: 0px solid black;
-	background: black;
-	overflow: hidden;
-}
-
-#slidy{
-	width: 2031px;
-}
-
-#slidy-container figcaption{
-	font-size: 1rem !important;
-}
-
-figure{
-	margin: 0px;
-	padding: 0px;
-	width: 336px;
-	height: 250px;
-	display: inline-block;
-}
 
 /*+---------------------------+
   |          FOOTER           |

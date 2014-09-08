@@ -9,8 +9,16 @@
 <title>Cemrock - Concrete & Construction</title>
 <meta name="description" content="Cemrock - Concrete & Construction">
 <meta name="author" content="Daniel" >
-<!-- styles -->
-<link rel="stylesheet" href="css/style.css?v=1.0">
+<!-- styles w/ Mobile_Detect -->
+<?php
+  require_once "Mobile_Detect.php";
+  $detect = new Mobile_Detect;
+  if ( $detect->isMobile() ) {
+    echo "<link rel='stylesheet' href='css/mstyle.css?v=1.0'>";
+  } else {
+    echo "<link rel='stylesheet' href='css/style.css?v=1.0'>";
+  }
+?>
 <!-- icon -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- colorBox -->
