@@ -6,7 +6,7 @@
 
 
 <div id="logos">
-  <div class="helper">
+  <div class="logohelper">
     <a href="http://workforcecompliancesafety.ca" target="_blank"><img src="img/logo_cor.jpg" alt=""></a>
     <a href="http://albertaconstruction.net" target="_blank"><img src="img/logo_aca.jpg" alt=""></a>
     <a href="http://www.bbb.org/calgary/" target="_blank"><img src="img/logo_bbb.gif" alt=""></a>

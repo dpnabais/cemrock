@@ -108,7 +108,7 @@ abbr,acronym {
 	body{
 		background-color: #fff;
 	}
-	
+
 	h1{
 		text-align: center;
 		font-size: 5em;
@@ -160,6 +160,7 @@ abbr,acronym {
 		left: 0;
 		right: 0;
 		margin: auto;
+		display: table;
 	}
 
 	body#home #logo,
@@ -270,6 +271,16 @@ abbr,acronym {
 		background-color: #000;
 	}
 
+	.helper{
+		display: block;
+		vertical-align: middle;
+	}
+
+	.logohelper{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
 	#menu ul{
 		display: flex;
 		flex-wrap: wrap;
@@ -303,6 +314,14 @@ abbr,acronym {
 		border-bottom: none;
 	}
 
+body.home     #menu a#home,
+body.formwork #menu a#formwork,
+body.flatwork #menu a#flatwork,
+body.safety   #menu a#safety,
+body.careers  #menu a#careers,
+body.contact  #menu a#contact{
+	color: #f1c628;
+}
 /*+---------------------------+
   |          MENU STATES      |
   +---------------------------+*/
@@ -315,6 +334,7 @@ abbr,acronym {
 	body#contact  #menu a#contact{
 		border-bottom: 0px solid #F1C628;
 	}
+
 
 /*+---------------------------+
   |          CONTENT          |
