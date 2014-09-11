@@ -22,7 +22,8 @@
 <!-- favIcon -->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- colorBox -->
-<script src="./colorbox/jquery-1.11.0.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+<!--<script src="./colorbox/jquery-1.11.0.min.js"></script>-->
 <link href="./colorbox/colorbox.css" rel="stylesheet" />
 <script src="./colorbox/jquery.colorbox-min.js"></script>
 <script>

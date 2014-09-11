@@ -46,6 +46,8 @@
 
 		<h1>Formwork Projects</h1>
 
+		<a id="slink" href="current.php">Current Projects</a>
+
 		<p><strong>Cemrock Formwork Division</strong> has successfully completed a wide array of concrete projects including:</p>
 
 		<p><u>Commercial Projects (including LEED projects)</u>

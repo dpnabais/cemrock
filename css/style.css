@@ -122,6 +122,34 @@ h1{
 	color: #444;
 }
 
+#slink,
+#blink{
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	display: inline-block;
+}
+
+#slink::before{
+	content: "\2002 \2295 \2009";
+	font-size: 1.5em;
+}
+
+#blink::before{
+	content: "\2002 \21B5 \2009";
+	font-size: 1.5em;
+}
+
+#slink:hover,
+#blink:hover{
+	border: 0px solid black;
+}
+
+#slink:hover::before,
+#blink:hover::before{
+	color: #f1c628;
+}
+
+
 p{
 	margin: 1em;
 }
@@ -327,7 +355,38 @@ iframe, #map-canvas{
 	border: none;
 }
 
+/*+---------------------------+
+	|   CURRENT PROJECTS        |
+	+---------------------------+*/
 
+#current-container{
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.current-item{
+	max-width: 20%;
+}
+
+.current-item img{
+	max-width: 100%;
+}
+
+#current-gallery{
+	width: 50%;
+	float: left;
+	margin-right: 2em;
+}
+
+#current-gallery img{
+	width: 100%;
+}
 /*+---------------------------+
   |          FOOTER           |
   +---------------------------+*/
