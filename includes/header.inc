@@ -15,11 +15,11 @@
   <div class="helper">
     <ul>
       <li><a href="index.php" id="home" class="icon-home"> Home</a></li>
-      <li><a href="formwork.php" id="formwork" class="icon-resize-vertical"> Formwork</a></li>
-      <li><a href="flatwork.php" id="flatwork" class="icon-resize-horizontal"> Flatwork</a></li>
-      <li><a href="safety.php" id="safety" class="icon-universal-access"> Safety</a></li>
-      <li><a href="careers.php" id="careers" class="icon-child"> Careers</a></li>
-      <li><a href="contact.php" id="contact" class="icon-phone"> Contact</a></li>
+      <li><a href="formwork.php" id="formwork" class="icon-formwork"> Formwork</a></li>
+      <li><a href="flatwork.php" id="flatwork" class="icon-flatwork"> Flatwork</a></li>
+      <li><a href="safety.php" id="safety" class="icon-safety"> Safety</a></li>
+      <li><a href="careers.php" id="careers" class="icon-careers"> Careers</a></li>
+      <li><a href="contact.php" id="contact" class="icon-contact"> Contact</a></li>
     </ul>
   </div>
 </div>

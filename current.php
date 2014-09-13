@@ -52,7 +52,7 @@
 
 		<h1>Current Formwork Projects</h1>
 
-		<a id="blink" href="formwork.php">back</a>
+		<a id="blink" class="icon-share" href="formwork.php">back</a>
 
 		<div id="current-container">
 			<div class="current-item" id="ci1"> <img src="./current/p1/thumb.jpg"/>Dome</div>
