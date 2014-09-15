@@ -19,15 +19,16 @@
     echo "<link rel='stylesheet' href='css/style.css?v=1.0'>";
   }
 ?>
-<!-- favIcon -->
+<!-- favIcon for the picky-->
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-<!-- colorBox -->
+<!-- jQuery lib now comes from google. they say its fresher -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
 <!--<script src="./colorbox/jquery-1.11.0.min.js"></script>-->
+<!-- colorBox -->
 <link href="./colorbox/colorbox.css" rel="stylesheet" />
 <script src="./colorbox/jquery.colorbox-min.js"></script>
 <script>
-  $(document).ready(function(){
-    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true});
+  $(document).ready(function(){ // ready. set. go!
+    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true}); //this colorBox piece of crap... why doesn't it come with this set already? macho web programming!
   });
 </script>

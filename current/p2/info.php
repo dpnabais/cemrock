@@ -1,4 +1,4 @@
-<h1>Project Dome</h1>
+<h1>Mahogany Lakeside Homes</h1>
 
 <script>
 $( document ).ready(function() {
@@ -19,9 +19,9 @@ $( document ).ready(function() {
 <div id="current-div">
       <div id="current-gallery">
         <?php
-          $dir = '/current/p1/img/';
+          $dir = '/current/p2/img/';
           foreach(glob($_SERVER['DOCUMENT_ROOT'].$dir.'*') as $image){ // Magic. Do not touch!
-            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement\" rel=\"p1\" title=\"Project Uno - The Dome\"><img src=\"".$dir.basename($image)."\"/></a>";
+            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement\" rel=\"p2\" title=\"Project UoF\"><img src=\"".$dir.basename($image)."\"/></a>";
             //This echo estatment is also governed by magic. Do not touch either!
           }
         ?>
@@ -34,26 +34,26 @@ $( document ).ready(function() {
 <table>
   <tr>
     <td><strong>Info: </strong></td>
-    <td>One level underground parkade and 10 storey condominium tower</td>
+    <td>Residential complex</td>
   </tr>
   <tr>
     <td><strong>Address: </strong></td>
-    <td>1234 32 St. SW, Calgary</td>
+    <td>Mahogany Blvd. SE, Calgary</td>
   </tr>
   <tr>
     <td><strong>Developer: </strong></td>
-    <td>Rich Guy Jr.</td>
+    <td>Dev guy</td>
   </tr>
   <tr>
     <td><strong>Manager: </strong></td>
-    <td>Someone</td>
+    <td>Mr. Manager</td>
   </tr>
   <tr>
     <td><strong>Start: </strong></td>
-    <td>Jan 1st, 2012</td>
+    <td>Mar 4st, 2014</td>
   </tr>
   <tr>
     <td><strong>End: </strong></td>
-    <td>Aug 20th, 2015</td>
+    <td>Dec 25th, 2014</td>
   </tr>
 </table>

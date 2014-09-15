@@ -37,10 +37,10 @@
 			<p>Certificates:
 
 				<ul>
-					<li><a href="./files/ISN Certificate of Membership.pdf">ISN Certificate of Membership</a></li>
-					<li><a href="./files/Alberta Construction Safety Association 2016 200dpi.pdf">Alberta Construction Safety Association</a></li>
-					<li><a href="./files/BBB Acredited Business 2014 200dpi.pdf">BBB Acredited Business</a></li>
-					<li><a href="./files/Calgary Construction Association Membership 2014 200dpi.pdf">Calgary Construction Association Membership</a></li>
+					<li><a href="./files/ISN Certificate of Membership.pdf" target="_blank">ISN Certificate of Membership</a></li>
+					<li><a href="./files/Alberta Construction Safety Association 2016 200dpi.pdf" target="_blank">Alberta Construction Safety Association</a></li>
+					<li><a href="./files/BBB Acredited Business 2014 200dpi.pdf" target="_blank">BBB Acredited Business</a></li>
+					<li><a href="./files/Calgary Construction Association Membership 2014 200dpi.pdf" target="_blank">Calgary Construction Association Membership</a></li>
 				</ul>
 			</p>
 

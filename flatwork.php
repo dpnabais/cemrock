@@ -31,6 +31,7 @@
 			}
 			#take only .jpg into $images[]
 			$images1 = preg_grep ('/\.jpg$/i', $files1);
+			#wtf?!?
 			$images2 = array_values($images1);
 			#spit out all the pics
 			echo "<p>This includes but is not limited to:";
@@ -38,6 +39,8 @@
 				echo "<a href=\"".$path."/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
 			}
 			echo "</p>";
+			# after trying to do better, please increment the following counter:
+			# $number_of_hours_wasted = 41;
 		?>
 		<ul>
 			<li>Suspended Slabs</li>

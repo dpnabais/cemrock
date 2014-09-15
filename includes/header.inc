@@ -10,7 +10,7 @@
 <input type="checkbox" id="toggle" name="toggle" tabindex="0"/>
 <label for="toggle"></label>
 
-<!-- menu -->
+<!-- menu - options for all! -->
 <div id="menu">
   <div class="helper">
     <ul>
@@ -55,7 +55,7 @@
 ?>
 </div>
 
-<!-- change divs with opacity and active class -->
+<!-- Call Merlin to renew magic subscription -->
 <script>
   function slideSwitch() {
     var $active = $('#headerbg div.active');
