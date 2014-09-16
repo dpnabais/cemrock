@@ -60,10 +60,10 @@
 		<a id="blink" class="icon-share" href="formwork.php">back</a>
 
 		<div id="current-container">
-			<div class="current-item" id="ci1"> <img src="./current/p1/thumb.jpg"/>Dome</div>
-			<div class="current-item" id="ci2"> <img src="./current/p2/thumb.jpg"/>Mahogany</div>
-			<div class="current-item" id="ci3"> <img src="./current/p3/thumb.jpg"/>Nuke Bomb</div>
-			<div class="current-item" id="ci4"> <img src="./current/p4/thumb.jpg"/>Eifel Tower</div>
+			<div class="current-item" id="ci1"> <img src="./current/p1/thumb.jpg"/>Dome<br><br></div>
+			<div class="current-item" id="ci2"> <img src="./current/p2/thumb.jpg"/>Mahogany<br><br></div>
+			<div class="current-item" id="ci3"> <img src="./current/p3/thumb.jpg"/>Nuke Bomb<br><br></div>
+			<div class="current-item" id="ci4"> <img src="./current/p4/thumb.jpg"/>Eifel Tower<br><br></div>
 		</div>
 		<br><br>
 		<div id="current-content">
