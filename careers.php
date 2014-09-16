@@ -17,7 +17,7 @@
 		<!--#########  CONTENT ########## -->
 
 		<h1>Careers</h1>
-		<img src="./img/careers.jpg" class="float_left"/>
+		<img src="./img/careers.jpg" class="float_left desktop"/>
 
 		<p>Cemrock is always looking for hardworking skilled individuals to join
 			our team. We offer competitive wages and training.</p>
