@@ -24,7 +24,7 @@
 <!-- jQuery lib now comes from google. they say its fresher -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
 <!--<script src="./colorbox/jquery-1.11.0.min.js"></script>-->
-<!-- colorBox -->
+<!-- crapBox -->
 <link href="./colorbox/colorbox.css" rel="stylesheet" />
 <script src="./colorbox/jquery.colorbox-min.js"></script>
 <script>

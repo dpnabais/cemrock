@@ -36,7 +36,7 @@
 			#spit out all the pics
 			echo "<p>This includes but is not limited to:";
 			for ($j = 0; $j < count($images2); $j++){
-				echo "<a href=\"".$path."/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
+				echo "<a href=\"".$path."/".$images2[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery desktop\" rel=\"flatProj\" title=\"Flatwork Projects\"></a>";
 			}
 			echo "</p>";
 			# after trying to do better, please increment the following counter:

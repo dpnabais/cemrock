@@ -55,7 +55,7 @@
 					#for the length of $imagesXX[], spit out <a href...>
 					#for the first one, add class 'icon-camera' using ((condition)?'true':'false')
 					for ($j = 0; $j < count($images11); $j++){
-						echo "<a href=\"".$path1."/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"comProj\" title=\"Commercial Projects\"></a>";
+						echo "<a href=\"".$path1."/".$images11[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery desktop\" rel=\"comProj\" title=\"Commercial Projects\"></a>";
 					}	?>
 		</p>
 		<ul>
@@ -68,7 +68,7 @@
 		<p><u>Institutional Projects</u>
 		<?php
 				for ($j = 0; $j < count($images22); $j++){
-					echo "<a href=\"".$path2."/".$images22[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"mulProj\" title=\"Institutional Projects\"></a>";
+					echo "<a href=\"".$path2."/".$images22[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery desktop\" rel=\"mulProj\" title=\"Institutional Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
@@ -79,7 +79,7 @@
 		<p><u>Multidwelling Residential Projects</u>
 		<?php
 				for ($j = 0; $j < count($images33); $j++){
-					echo "<a href=\"".$path3."/".$images33[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"munProj\" title=\"Multidwelling Residential Projects\"></a>";
+					echo "<a href=\"".$path3."/".$images33[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery desktop\" rel=\"munProj\" title=\"Multidwelling Residential Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
@@ -88,7 +88,7 @@
 		<p><u>Industrial Projects</u>
 		<?php
 				for ($j = 0; $j < count($images44); $j++){
-					echo "<a href=\"".$path4."/".$images44[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery\" rel=\"indProj\" title=\"Industrial Projects\"></a>";
+					echo "<a href=\"".$path4."/".$images44[$j]."\" class=\"".(($j==0)?'icon-camera ':'')."cboxElement gallery desktop\" rel=\"indProj\" title=\"Industrial Projects\"></a>";
 				}	?>
 		</p>
 		<ul>
