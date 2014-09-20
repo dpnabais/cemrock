@@ -82,28 +82,17 @@
 		<h1>Current Formwork Projects</h1>
 
 		<!--<a id="slink" class="icon-share" href="current.php">Current Projects</a>-->
-
-
-
-
-<div id="current-content">
-	<!-- leprechaun's droppings here  -->
-</div>
-<br><br>
-
-<div id="current-container">
-	<div class="current-item" id="ci1"> <img src="./current/p1/thumb.jpg"/>11 Av.<br><br></div>
-	<div class="current-item" id="ci2"> <img src="./current/p2/thumb.jpg"/>UofC/7<br><br></div>
-	<div class="current-item" id="ci3"> <img src="./current/p3/thumb.jpg"/>UofC/8<br><br></div>
-	<div class="current-item" id="ci4"> <img src="./current/p4/thumb.jpg"/>Mahogany<br><br></div>
-</div>
-
-
-
-
-
-
-
+		<div id="current-content">
+			<!-- leprechaun's droppings here  -->
+		</div>
+		<br><br>
+		<div id="current-container">
+			<div class="current-item" id="ci1"> <img src="./current/p1/thumb.jpg"/>11 Av.<br><br></div>
+			<div class="current-item" id="ci2"> <img src="./current/p2/thumb.jpg"/>UofC/7<br><br></div>
+			<div class="current-item" id="ci3"> <img src="./current/p3/thumb.jpg"/>UofC/8<br><br></div>
+			<div class="current-item" id="ci4"> <img src="./current/p4/thumb.jpg"/>Mahogany<br><br></div>
+		</div>
+		<br><br>
 		<p><strong>Cemrock Formwork Division</strong> has successfully completed a wide array of concrete projects including:</p>
 
 		<p><u>Commercial Projects (including LEED projects)</u>

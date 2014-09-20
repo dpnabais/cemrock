@@ -27,7 +27,7 @@
 <!-- logo and small info -->
 <div id="logo">
   <div class="logohelper">
-  <img src="img/logo_cr_t2.png" width="412" height="136" alt="Cemrock logo">
+  <img src="img/logo_cr_t2.png" width="500px" alt="Cemrock logo">
 </div></div>
 <p id="info"><a href="http://www.maps.google.com/?q=121,%202432,%2048%20Street%20SE,%20Calgary" target="_blank">#121, 2432 - 48 Street SE, Calgary, AB T2B 1M4</a> - (403) 263-7168</p>
 

@@ -367,6 +367,7 @@ iframe, #map-canvas{
 	display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+	display: -webkit-flex-box;
 	-webkit-flex-wrap: nowrap;
 	    -ms-flex-wrap: nowrap;
 	        flex-wrap: nowrap;
@@ -494,70 +495,4 @@ span:hover{
 #privacy li{
 	list-style: initial;
 	margin-left: 2em;
-}
-
-
-
-
-
-
-
-
-
-
-.tabs input[type=radio] {
-    display:none;
-}
-
-.tabs {
-    width: 650px;
-    float: none;
-    list-style: none;
-    position: relative;
-    padding: 0;
-    margin: 75px auto;
-}
-
-.tabs li{
-    float: left;
-}
-
-.tabs label {
-    display: block;
-    padding: 10px 20px;
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: normal;
-    background: #2c3e50;
-    cursor: pointer;
-    position: relative;
-}
-
-.tabs label:hover {
-    background: #3498db;
-}
-
-.tab-content {
-    z-index: 2;
-    display: none;
-    left: 0;
-    width: 100%;
-    font-size: 20px;
-    line-height: 140%;
-    padding: 15px;
-    position: absolute;
-    box-sizing: border-box;
-    border:1px solid #ccc;
-    border-top: 10px solid #08C;
-    background-color:#ffffff;
-}
-
-[id^=tab]:checked + label {
-    background: #08C;
-    color: white;
-    top: 0;
-}
-
-[id^=tab]:checked ~ [id^=tab-content] {
-    display: block;
 }

@@ -1,5 +1,3 @@
-<h1>Project Dome</h1>
-
 <script>
 $( document ).ready(function() {
   $("#current-gallery a").hide();
@@ -16,6 +14,7 @@ $( document ).ready(function() {
   });
 });
 </script>
+<h1>11th Avenue</h1>
 <div id="current-div">
       <div id="current-gallery">
         <?php
@@ -31,29 +30,7 @@ $( document ).ready(function() {
       <span class="next icon-right"></span>
 </div>
 <br>
-<table>
-  <tr>
-    <td><strong>Info: </strong></td>
-    <td>One level underground parkade and 10 storey condominium tower</td>
-  </tr>
-  <tr>
-    <td><strong>Address: </strong></td>
-    <td>1234 32 St. SW, Calgary</td>
-  </tr>
-  <tr>
-    <td><strong>Developer: </strong></td>
-    <td>Rich Guy Jr.</td>
-  </tr>
-  <tr>
-    <td><strong>Manager: </strong></td>
-    <td>Someone</td>
-  </tr>
-  <tr>
-    <td><strong>Start: </strong></td>
-    <td>Jan 1st, 2012</td>
-  </tr>
-  <tr>
-    <td><strong>End: </strong></td>
-    <td>Aug 20th, 2015</td>
-  </tr>
-</table>
+<p>Big project with lots of sunshine, most of the days anyway. This worksite is
+  better than the others as it is on the 11th Av. This description is already too
+  big. I can write two more lines just to see how it looks like after all. This
+  description will be the biggest ever.</p>
