@@ -29,6 +29,6 @@
 <script src="./colorbox/jquery.colorbox-min.js"></script>
 <script>
   $(document).ready(function(){ // ready. set. go!
-    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true}); //this colorBox piece of crap... why doesn't it come with this set already? macho web programming!
+    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true}); //colorBox piece of crap... why doesn't it come with this set already?
   });
 </script>

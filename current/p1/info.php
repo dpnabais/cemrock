@@ -14,13 +14,18 @@ $( document ).ready(function() {
   });
 });
 </script>
+<script>
+  $(document).ready(function(){ // ready. set. go!
+    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true}); //colorBox piece of crap... why doesn't it come with this set already?
+  });
+</script>
 <h1>11th Avenue</h1>
 <div id="current-div">
       <div id="current-gallery">
         <?php
           $dir = '/current/p1/img/';
           foreach(glob($_SERVER['DOCUMENT_ROOT'].$dir.'*') as $image){ // Magic. Do not touch!
-            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement\" rel=\"p1\" title=\"Project Uno - The Dome\"><img src=\"".$dir.basename($image)."\"/></a>";
+            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement gallery\" rel=\"p1\" title=\"11 Av.\"><img src=\"".$dir.basename($image)."\"/></a>";
             //This echo estatment is also governed by magic. Do not touch either!
           }
         ?>

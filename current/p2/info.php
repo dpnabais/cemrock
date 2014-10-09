@@ -1,5 +1,3 @@
-<h1>Mahogany Lakeside Homes</h1>
-
 <script>
 $( document ).ready(function() {
   $("#current-gallery a").hide();
@@ -16,12 +14,18 @@ $( document ).ready(function() {
   });
 });
 </script>
+<script>
+  $(document).ready(function(){ // ready. set. go!
+    $(".gallery").colorbox({transition:"elastic", maxWidth:"90%", maxHeight:"90%", scalePhotos:true}); //colorBox piece of crap... why doesn't it come with this set already?
+  });
+</script>
+<h1>University of Calgary - Phase 7</h1>
 <div id="current-div">
       <div id="current-gallery">
         <?php
           $dir = '/current/p2/img/';
           foreach(glob($_SERVER['DOCUMENT_ROOT'].$dir.'*') as $image){ // Magic. Do not touch!
-            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement\" rel=\"p2\" title=\"Project UoF\"><img src=\"".$dir.basename($image)."\"/></a>";
+            echo "<a href=\"".$dir.basename($image)."\" class=\"cboxElement gallery\" rel=\"p2\" title=\"UofC/7 \"><img src=\"".$dir.basename($image)."\"/></a>";
             //This echo estatment is also governed by magic. Do not touch either!
           }
         ?>
@@ -31,29 +35,4 @@ $( document ).ready(function() {
       <span class="next icon-right"></span>
 </div>
 <br>
-<table>
-  <tr>
-    <td><strong>Info: </strong></td>
-    <td>Residential complex</td>
-  </tr>
-  <tr>
-    <td><strong>Address: </strong></td>
-    <td>Mahogany Blvd. SE, Calgary</td>
-  </tr>
-  <tr>
-    <td><strong>Developer: </strong></td>
-    <td>Dev guy</td>
-  </tr>
-  <tr>
-    <td><strong>Manager: </strong></td>
-    <td>Mr. Manager</td>
-  </tr>
-  <tr>
-    <td><strong>Start: </strong></td>
-    <td>Mar 4st, 2014</td>
-  </tr>
-  <tr>
-    <td><strong>End: </strong></td>
-    <td>Dec 25th, 2014</td>
-  </tr>
-</table>
+<p>University of Calgary - Phase 7</p>
