@@ -57,7 +57,8 @@
 						    #take only .jpg into $images[]
 						    $images=preg_grep ('/\.jpg$/i', $files);
 						    #randomize!
-						    sort($images);
+						    #sort($images);
+							shuffle($images);
 						    #spit out all the <div>s
 						    for ($i = 0; $i < count($images); $i++){
 						      echo "<div style=\"background-image: url('".$dirFormtxt."/".$images[$i]."');\"></div>";
