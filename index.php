@@ -94,7 +94,7 @@
 							<li>Sackrub Finishing </li>
 						</ul>
 						<ul class="actions">
-							<li><a href="formwork.php" class="button">More...</a></li>
+							<li><a href="formwork.php" class="button">Projects</a></li>
 						</ul>
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>

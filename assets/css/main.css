@@ -2746,6 +2746,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	#formworkexpand:after{
+		background-image: url("images/arrowy.svg");
+	}
+
 	/*
 	████████  █████  ██████  ██      ███████
 	   ██    ██   ██ ██   ██ ██      ██
@@ -3620,65 +3624,65 @@
 		z-index: 21;
 	}
 
-		#banner:before {
-			content: '';
-			display: inline-block;
-			height: 100vh;
-			vertical-align: middle;
-			width: 1%;
+	#banner:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+		width: 1%;
+	}
+
+	#banner:after {
+		/*background-image: -moz-linear-gradient(   top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		background-image: -ms-linear-gradient(    top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		background-image: linear-gradient(        top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	#banner .content {
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: right;
+		vertical-align: middle;
+		z-index: 1;
+	}
+
+	#banner .content header {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+		#banner .content header h2 {
+			font-size: 2.5em;
+			margin: 0;
 		}
 
-		#banner:after {
-			/*background-image: -moz-linear-gradient(   top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(    top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(        top, rgba(23, 24, 32, 0), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;*/
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			position: absolute;
+		#banner .content header p {
+			margin: 0.5em 0 0 0;
 			top: 0;
-			width: 100%;
 		}
 
-		#banner .content {
-			display: inline-block;
-			margin-right: 1%;
-			max-width: 95%;
-			padding: 6em;
-			position: relative;
-			text-align: right;
-			vertical-align: middle;
-			z-index: 1;
-		}
+	#banner .content .image {
+		display: inline-block;
+		height: 18em;
+		margin-left: 3em;
+		vertical-align: middle;
+		width: 18em;
+	}
 
-			#banner .content header {
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-				#banner .content header h2 {
-					font-size: 2.5em;
-					margin: 0;
-				}
-
-				#banner .content header p {
-					margin: 0.5em 0 0 0;
-					top: 0;
-				}
-
-			#banner .content .image {
-				display: inline-block;
-				height: 18em;
-				margin-left: 3em;
-				vertical-align: middle;
-				width: 18em;
-			}
-
-				#banner .content .image img {
-					display: block;
-				}
+	#banner .content .image img {
+		display: block;
+	}
 
 	body.is-touch #banner {
 		background-attachment: scroll;

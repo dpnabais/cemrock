@@ -21,7 +21,15 @@
 
 						<ul>
 							<li><a href="index.php#banner"     class="scrolly"> Home</a></li>
-							<li><a href="index.php#one"        class="scrolly" > Formwork</a></li>
+							<li><a href="index.php#one"        class="scrolly" id="formworkexpand"> Formwork</a>
+							<ul>
+								<li><a href="#residential"   class="scrolly"> Residential</a></li>
+								<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
+								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
+								<li><a href="#cores"         class="scrolly"> Cores</a></li>
+								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
+							</ul>
+							</li>
 							<li><a href="index.php#three"      class="scrolly" > Flatwork</a></li>
 							<!-- <li><a href="index.php#two"        class="scrolly" > Paving</a></li> -->
 							<li><a href="safety.html"          class="scrolly"   > Safety</a></li>
@@ -29,27 +37,19 @@
 							<li><a href="contact.html"         class="scrolly"  > Contact</a></li>
 						</ul>
 
+						<!--
 						<ul>
-				      <li><a href="#residential"   class="scrolly"> Residential</a></li>
-				      <li><a href="#commercial"    class="scrolly"> Commercial</a></li>
-				      <li><a href="#institutional" class="scrolly"> Institutional</a></li>
-				      <li><a href="#cores"         class="scrolly"> Cores</a></li>
-				      <li><a href="#architectural" class="scrolly"> Architectural</a></li>
-    				</ul>
-
+							<li><a href="#residential"   class="scrolly"> Residential</a></li>
+							<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
+							<li><a href="#institutional" class="scrolly"> Institutional</a></li>
+							<li><a href="#cores"         class="scrolly"> Cores</a></li>
+							<li><a href="#architectural" class="scrolly"> Architectural</a></li>
+						</ul>
+						-->
 					</nav>
 				</header>
 
-			<!-- Banner -->
-			<!--	<section id="banner">
-					<div class="content">
-
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
-			-->
-
-
+			
 			<!-- RESIDENTIAL -->
 
 
