@@ -21,9 +21,9 @@
 
 						<ul>
 							<li><a href="index.php#banner"     class="scrolly"> Home</a></li>
-							<li><a href="index.php#one"        class="scrolly" id="formworkexpand"> Formwork</a>
+							<li><a href="formwork.php"        class="scrolly" id="formworkexpand"> Formwork</a>
 							<ul>
-								<li><a href="#residential"   class="scrolly"> Residential</a></li>
+								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
 								<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
 								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
 								<li><a href="#cores"         class="scrolly"> Cores</a></li>
@@ -39,7 +39,7 @@
 
 						<!--
 						<ul>
-							<li><a href="#residential"   class="scrolly"> Residential</a></li>
+							<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
 							<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
 							<li><a href="#institutional" class="scrolly"> Institutional</a></li>
 							<li><a href="#cores"         class="scrolly"> Cores</a></li>
@@ -50,15 +50,15 @@
 				</header>
 
 			
-			<!-- RESIDENTIAL -->
+			<!-- HIGHRISE -->
 
 
-				<section id="residential" class="spotlight style2 right">
-					<div id="residentialpics">
+				<section id="highrise" class="spotlight style2 right">
+					<div id="highrisepics">
 
 						<?php
-						    $dirRes  = opendir("./images/formwork/residential");
-						    $dirtxtRes = "./images/formwork/residential";
+						    $dirRes  = opendir("./images/formwork/highrise");
+						    $dirtxtRes = "./images/formwork/highrise";
 						    while (($filenameRes = readdir($dirRes)) !==false) {
 						      $filesRes[] = $filenameRes;
 						    }
@@ -75,24 +75,29 @@
 
 						<div class="content">
 						<header>
-							<h2>Residential Projects</h2>
+							<h2>Highrise Projects</h2>
 						</header>
-						<p class="list-heading">Highrise</p>
+						<p class="list-heading">Vancouver</p>
 						<ul>
-							<li>Lamb Tower</li>
-							<li>The Hendrix</li>
+							<li><a href="oakridge.php">Oakridge Tower</a></li>
+							<li>Pacific</li>
+							<li>Plaris</li>
+						</ul>
+						<p class="list-heading">Calgary</p>
+						<ul>
+							<li>Era</li>
+							<li>Annex</li>
+							<li>Jemm</li>
 							<li>Smith</li>
+							<li>6th & 10th</li>
 						</ul>
-						<p class="list-heading">Midrise</p>
+						<p class="list-heading">Edmonton</p>
 						<ul>
-							<li>Ezra on Riley Park</li>
-							<li>Ventus</li>
-						</ul>
-						<p class="list-heading">Multifamily (single level parkades)</p>
-						<ul>
-							<li>1741</li>
-							<li>Orchard Sky</li>
-							<li>Skymills</li>
+							<li>CX</li>
+							<li>Hendrix</li>
+							<li>McLaren</li>
+							<li>Centurion</li>
+							<li>???</li>
 						</ul>
 						<ul class="actions">
 							<li><a href="#" class="button" style='display:none;'>Learn More</a></li>
@@ -378,10 +383,10 @@
 
 			<script>
 			  function slideSwitchRes() {
-			    var $active = $('#residentialpics div.main');
-			    if ( $active.length == 0 ) $active = $('#residentialpics div:last');
+			    var $active = $('#highrisepics div.main');
+			    if ( $active.length == 0 ) $active = $('#highrisepics div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#residentialpics div:first');
+			      : $('#highrisepics div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')

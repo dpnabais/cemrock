@@ -2202,6 +2202,10 @@
 		margin: 4em 0 0 0;
 	}
 
+	#zoomlogo {
+		max-width: 100%;
+	}
+
 	/*
 	███████  ██████  ██████  ███    ███
 	██      ██    ██ ██   ██ ████  ████
@@ -2746,8 +2750,10 @@
 		margin: 0 0 2em 0;
 	}
 
-	#formworkexpand:after{
+	#formworkexpand{
 		background-image: url("images/arrowy.svg");
+		background-repeat: no-repeat;
+		background-position: center bottom;
 	}
 
 	/*
@@ -3452,13 +3458,14 @@
 	}
 
 	#formworkpics,
-	#residentialpics ,
+	#highrisepics ,
 	#institutionalpics,
 	#architecturalpics,
 	#flatworkpics,
 	#commercialpics,
 	#corespics,
-	#pavingpics{
+	#pavingpics,
+	#zoompics{
 		width: 70%;
 		min-height: 100vh;
 		height: 100%;
@@ -3479,12 +3486,13 @@
 
 	#formworkpics      div,
 	#flatworkpics      div,
-	#residentialpics   div,
+	#highrisepics   div,
 	#commercialpics    div,
 	#institutionalpics div,
 	#corespics         div,
 	#architecturalpics div,
-	#pavingpics div{
+	#pavingpics div,
+	#zoompics div{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -3500,23 +3508,25 @@
 
 	#formworkpics      div.main,
 	#flatworkpics      div.main,
-	#residentialpics   div.main,
+	#highrisepics      div.main,
 	#commercialpics    div.main,
 	#institutionalpics div.main,
 	#corespics         div.main,
 	#architecturalpics div.main,
-	#pavingpics        div.main{
+	#pavingpics        div.main,
+	#zoompics          div.main{
 		z-index: 10;
 	}
 
 	#formworkpics      div.last-main,
 	#flatworkpics      div.last-main,
-	#residentialpics   div.last-main,
+	#highrisepics   div.last-main,
 	#commercialpics    div.last-main,
 	#institutionalpics div.last-main,
 	#corespics         div.last-main,
 	#architecturalpics div.last-main,
-	#pavingpics        div.last-main{
+	#pavingpics        div.last-main,
+	#zoompics          div.last-main{
 		z-index: 9;
 	}
 
@@ -3854,12 +3864,13 @@
 
 		#formworkpics,
 		#flatworkpics,
-		#residentialpics ,
+		#highrisepics ,
 		#commercialpics,
 		#institutionalpics,
 		#corespics,
 		#architecturalpics,
-		#pavingpics{
+		#pavingpics,
+		#zoompics{
 			position: relative;
 			width: 100%;
 		}
@@ -4353,12 +4364,13 @@
 					}
 
 					#formworkpics,
-					#residentialpics ,
+					#highrisepics ,
 					#institutionalpics,
 					#architecturalpics,
 					#flatworkpics,
 					#commercialpics,
-					#corespics{
+					#corespics,
+					#zoompics{
 						width: 100%;
 
 					}
