@@ -70,7 +70,7 @@
 						    $images=preg_grep ('/\.jpg$/i', $files);
 						    #randomize!
 						    #sort($images);
-							shuffle($images);
+							//shuffle($images);
 						    #spit out all the <div>s
 						    for ($i = 0; $i < count($images); $i++){
 						      echo "<div style=\"background-image: url('".$dirFormtxt."/".$images[$i]."');\"></div>";
@@ -123,7 +123,7 @@
 								#take only .jpg into $images[]
 								$images=preg_grep ('/\.jpg$/i', $filesF);
 								#randomize!
-								shuffle($images);
+								//shuffle($images);
 								#spit out all the <div>s
 								for ($i = 0; $i < count($images); $i++){
 									echo "<div style=\"background-image: url('".$dirFlattxt."/".$images[$i]."');\"></div>";

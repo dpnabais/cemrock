@@ -63,7 +63,7 @@
 						      $filesRes[] = $filenameRes;
 						    }
 						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
-						    shuffle($imagesRes);
+						    //shuffle($imagesRes);
 						    for ($i = 0; $i < count($imagesRes); $i++){
 						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
 						    }
