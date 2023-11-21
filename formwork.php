@@ -63,7 +63,11 @@
 						      $filesRes[] = $filenameRes;
 						    }
 						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
+<<<<<<< HEAD
 						    #shuffle($imagesRes);
+=======
+						    //shuffle($imagesRes);
+>>>>>>> e1857c692e61f6f2b32860d71c8228d6d620e86a
 						    for ($i = 0; $i < count($imagesRes); $i++){
 						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
 						    }
@@ -128,7 +132,11 @@
 								#take only .jpg into $images[]
 								$imagesCom=preg_grep ('/\.jpg$/i', $filesCom);
 								#randomize!
+<<<<<<< HEAD
 								#shuffle($imagesCom);
+=======
+								//shuffle($imagesCom);
+>>>>>>> e1857c692e61f6f2b32860d71c8228d6d620e86a
 								#spit out all the <div>s
 								for ($i = 0; $i < count($imagesCom); $i++){
 									echo "<div style=\"background-image: url('".$dirtxtCom."/".$imagesCom[$i]."');\"></div>";
@@ -182,7 +190,11 @@
 								#take only .jpg into $images[]
 								$imagesIns=preg_grep ('/\.jpg$/i', $filesIns);
 								#randomize!
+<<<<<<< HEAD
 								#shuffle($imagesIns);
+=======
+								//shuffle($imagesIns);
+>>>>>>> e1857c692e61f6f2b32860d71c8228d6d620e86a
 								#spit out all the <div>s
 								for ($i = 0; $i < count($imagesIns); $i++){
 									echo "<div style=\"background-image: url('".$dirtxtIns."/".$imagesIns[$i]."');\"></div>";
@@ -232,7 +244,11 @@
 									#take only .jpg into $images[]
 									$imagesCor=preg_grep ('/\.jpg$/i', $filesCor);
 									#randomize!
+<<<<<<< HEAD
 									#shuffle($imagesCor);
+=======
+									//shuffle($imagesCor);
+>>>>>>> e1857c692e61f6f2b32860d71c8228d6d620e86a
 									#spit out all the <div>s
 									for ($i = 0; $i < count($imagesCor); $i++){
 										echo "<div style=\"background-image: url('".$dirtxtCor."/".$imagesCor[$i]."');\"></div>";
@@ -281,7 +297,11 @@
 										#take only .jpg into $images[]
 										$imagesArc=preg_grep ('/\.jpg$/i', $filesArc);
 										#randomize!
+<<<<<<< HEAD
 										#shuffle($imagesArc);
+=======
+										//shuffle($imagesArc);
+>>>>>>> e1857c692e61f6f2b32860d71c8228d6d620e86a
 										#spit out all the <div>s
 										for ($i = 0; $i < count($imagesArc); $i++){
 											echo "<div style=\"background-image: url('".$dirtxtArc."/".$imagesArc[$i]."');\"></div>";
