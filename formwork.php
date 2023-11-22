@@ -63,7 +63,7 @@
 						      $filesRes[] = $filenameRes;
 						    }
 						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
-						    #shuffle($imagesRes);
+						    sort($imagesRes);
 						    for ($i = 0; $i < count($imagesRes); $i++){
 						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
 						    }
@@ -79,7 +79,7 @@
 						</header>
 						<p class="list-heading">Vancouver</p>
 						<ul>
-							<li><a href="oakridge.php">Oakridge Tower</a></li>
+							<li><a href="./oakridge.php">Oakridge Tower</a></li>
 							<li>Pacific</li>
 							<li>Plaris</li>
 						</ul>

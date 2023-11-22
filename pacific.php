@@ -53,8 +53,8 @@
 			<!-- PROJECT ZOOM -->
 
 
-				<section id="projectzoom" class="spotlight style2 right">
-					<div id="zoompics">
+				<section id="projectzoom" class="spotlight style3 left">
+					<div id="zoompics2">
 
 						<?php
 						    $dirRes  = opendir("./images/formwork/highrise/oakridge");
@@ -78,7 +78,7 @@
 						<img id="zoomlogo" src="./images/formwork/highrise/oakridge/4wpcs9b1.jpeg">
 
 						<header>
-							<h2>Oakridge Towers</h2>
+							<h2>Pacific</h2>
 						</header>
 						<p class="list-heading">Client | Contractor</p>
 						<ul>

@@ -3465,7 +3465,8 @@
 	#commercialpics,
 	#corespics,
 	#pavingpics,
-	#zoompics{
+	#zoompics,
+	#zoompics2{
 		width: 70%;
 		min-height: 100vh;
 		height: 100%;
@@ -3479,18 +3480,20 @@
 	#commercialpics,
 	#corespics,
 	#pavingpics,
-	#flatworkpics{
+	#flatworkpics,
+	#zoompics2{
 		right:0;
 	}
 
-
+	
 	#formworkpics      div,
 	#flatworkpics      div,
 	#highrisepics   div,
 	#commercialpics    div,
 	#institutionalpics div,
 	#corespics         div,
-	#architecturalpics div,
+	#architecturalpics div,Ccc2432
+	
 	#pavingpics div,
 	#zoompics div{
 		position: absolute;
@@ -3505,6 +3508,21 @@
 		background-color: #000;
 		/*box-shadow: 0px -8px 8px 0px #fff inset;*/
 	}
+
+	#zoompics2 div{
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		background-size: contain;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-color: #000;
+		/*box-shadow: 0px -8px 8px 0px #fff inset;*/
+	}
+
 
 	#formworkpics      div.main,
 	#flatworkpics      div.main,
