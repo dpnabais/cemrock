@@ -21,7 +21,8 @@
 
 						<ul>
 							<li><a href="index.php#banner"     class="scrolly"> Home</a></li>
-							<li><a href="formwork.php"        class="scrolly" id="formworkexpand"> Formwork</a>
+							<li><a href="formwork.php"         class="scrolly"> Formwork</a>
+							<!--
 							<ul>
 								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
 								<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
@@ -29,6 +30,7 @@
 								<li><a href="#cores"         class="scrolly"> Cores</a></li>
 								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
 							</ul>
+							-->
 							</li>
 							<li><a href="index.php#three"      class="scrolly" > Flatwork</a></li>
 							<!-- <li><a href="index.php#two"        class="scrolly" > Paving</a></li> -->

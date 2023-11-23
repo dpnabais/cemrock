@@ -2204,6 +2204,8 @@
 
 	#zoomlogo {
 		max-width: 100%;
+		max-height: 300px;
+		border: 3px solid #f1c628;
 	}
 
 	/*
@@ -3462,7 +3464,7 @@
 	#institutionalpics,
 	#architecturalpics,
 	#flatworkpics,
-	#commercialpics,
+	#midlowrisepics,
 	#corespics,
 	#pavingpics,
 	#zoompics,
@@ -3477,7 +3479,7 @@
 		z-index: 0;
 	}
 
-	#commercialpics,
+	#midlowrisepics,
 	#corespics,
 	#pavingpics,
 	#flatworkpics,
@@ -3489,11 +3491,11 @@
 	#formworkpics      div,
 	#flatworkpics      div,
 	#highrisepics   div,
-	#commercialpics    div,
+	#midlowrisepics    div,
 	#institutionalpics div,
 	#corespics         div,
 	#architecturalpics div,Ccc2432
-	
+
 	#pavingpics div,
 	#zoompics div{
 		position: absolute;
@@ -3527,24 +3529,26 @@
 	#formworkpics      div.main,
 	#flatworkpics      div.main,
 	#highrisepics      div.main,
-	#commercialpics    div.main,
+	#midlowrisepics    div.main,
 	#institutionalpics div.main,
 	#corespics         div.main,
 	#architecturalpics div.main,
 	#pavingpics        div.main,
-	#zoompics          div.main{
+	#zoompics          div.main,
+	#zoompics2         div.main{
 		z-index: 10;
 	}
 
 	#formworkpics      div.last-main,
 	#flatworkpics      div.last-main,
-	#highrisepics   div.last-main,
-	#commercialpics    div.last-main,
+	#highrisepics      div.last-main,
+	#midlowrisepics    div.last-main,
 	#institutionalpics div.last-main,
 	#corespics         div.last-main,
 	#architecturalpics div.last-main,
 	#pavingpics        div.last-main,
-	#zoompics          div.last-main{
+	#zoompics          div.last-main,
+	#zoompics2         div.last-main{
 		z-index: 9;
 	}
 
@@ -3883,7 +3887,7 @@
 		#formworkpics,
 		#flatworkpics,
 		#highrisepics ,
-		#commercialpics,
+		#midlowrisepics,
 		#institutionalpics,
 		#corespics,
 		#architecturalpics,
@@ -4386,7 +4390,7 @@
 					#institutionalpics,
 					#architecturalpics,
 					#flatworkpics,
-					#commercialpics,
+					#midlowrisepics,
 					#corespics,
 					#zoompics{
 						width: 100%;

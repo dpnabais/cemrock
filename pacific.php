@@ -21,14 +21,16 @@
 
 						<ul>
 							<li><a href="index.php#banner"     class="scrolly"> Home</a></li>
-							<li><a href="formwork.php"        class="scrolly" id="formworkexpand"> Formwork</a>
+							<li><a href="formwork.php"         class="scrolly" > Formwork</a>
+							<!--
 							<ul>
-								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
+								<li><a href="#highrise"      class="scrolly"> Highrise</a></li>
 								<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
 								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
 								<li><a href="#cores"         class="scrolly"> Cores</a></li>
 								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
 							</ul>
+							-->
 							</li>
 							<li><a href="index.php#three"      class="scrolly" > Flatwork</a></li>
 							<!-- <li><a href="index.php#two"        class="scrolly" > Paving</a></li> -->
@@ -57,8 +59,8 @@
 					<div id="zoompics2">
 
 						<?php
-						    $dirRes  = opendir("./images/formwork/highrise/oakridge");
-						    $dirtxtRes = "./images/formwork/highrise/oakridge";
+						    $dirRes  = opendir("./images/formwork/highrise/pacific");
+						    $dirtxtRes = "./images/formwork/highrise/pacific";
 						    while (($filenameRes = readdir($dirRes)) !==false) {
 						      $filesRes[] = $filenameRes;
 						    }
@@ -75,16 +77,16 @@
 
 						<div class="content">
 						
-						<img id="zoomlogo" src="./images/formwork/highrise/oakridge/4wpcs9b1.jpeg">
+						<img id="zoomlogo" src="./images/formwork/highrise/pacific/pacific.jpeg">
 
 						<header>
 							<h2>Pacific</h2>
 						</header>
 						<p class="list-heading">Client | Contractor</p>
 						<ul>
-							<li>Several floors</li>
-							<li>More underground</li>
-							<li>Dozens of WCs</li>
+							<li>Lean tower</li>
+							<li>Great build quality</li>
+							<li>Recycled materials only</li>
 						</ul>
 										
 						<ul class="actions">
@@ -134,10 +136,10 @@
 
 			<script>
 			  function slideSwitchZoompics() {
-			    var $active = $('#zoompics div.main');
-			    if ( $active.length == 0 ) $active = $('#zoompics div:last');
+			    var $active = $('#zoompics2 div.main');
+			    if ( $active.length == 0 ) $active = $('#zoompics2 div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#zoompics div:first');
+			      : $('#zoompics2 div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')

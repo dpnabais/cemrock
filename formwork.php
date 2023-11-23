@@ -24,7 +24,7 @@
 							<li><a href="formwork.php"        class="scrolly" id="formworkexpand"> Formwork</a>
 							<ul>
 								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
-								<li><a href="#commercial"    class="scrolly"> Commercial</a></li>
+								<li><a href="#midlowrise"    class="scrolly"> Mid/Lowrise</a></li>
 								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
 								<li><a href="#cores"         class="scrolly"> Cores</a></li>
 								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
@@ -80,8 +80,8 @@
 						<p class="list-heading">Vancouver</p>
 						<ul>
 							<li><a href="./oakridge.php">Oakridge Tower</a></li>
-							<li>Pacific</li>
-							<li>Plaris</li>
+							<li><a href="./pacific.php">Pacific</a></li>
+							<li>Polaris</li>
 						</ul>
 						<p class="list-heading">Calgary</p>
 						<ul>
@@ -97,29 +97,29 @@
 							<li>Hendrix</li>
 							<li>McLaren</li>
 							<li>Centurion</li>
-							<li>???</li>
+							<li>Symphony</li>
 						</ul>
 						<ul class="actions">
 							<li><a href="#" class="button" style='display:none;'>Learn More</a></li>
 						</ul>
 					</div>
-					<a href="#commercial" class="goto-next scrolly">Next</a>
+					<a href="#midlowrise" class="goto-next scrolly">Next</a>
 				</section>
 
 
-			<!-- COMMERCIAL -->
+			<!-- MIDRISE / LOWRISE -->
 
 
-				<section id="commercial" class="spotlight style3 left">
+				<section id="midlowrise" class="spotlight style3 left">
 
-					<div id="commercialpics">
+					<div id="midlowrisepics">
 
 						<!-- build the divs in random order -->
 						<?php
 
 								#open the working directory into $dir
-								$dirCom  = opendir("./images/formwork/commercial");
-								$dirtxtCom = "./images/formwork/commercial";
+								$dirCom  = opendir("./images/formwork/midlowrise");
+								$dirtxtCom = "./images/formwork/midlowrise";
 
 								#store ALL the files in $files[]
 								while (($filenameCom = readdir($dirCom)) !==false) {
@@ -128,7 +128,7 @@
 								#take only .jpg into $images[]
 								$imagesCom=preg_grep ('/\.jpg$/i', $filesCom);
 								#randomize!
-								#shuffle($imagesCom);
+								sort($imagesCom);
 								#spit out all the <div>s
 								for ($i = 0; $i < count($imagesCom); $i++){
 									echo "<div style=\"background-image: url('".$dirtxtCom."/".$imagesCom[$i]."');\"></div>";
@@ -141,17 +141,21 @@
 
 					<div class="content">
 						<header>
-							<h2>Commercial Projects</h2>
+							<h2>Mid/Lowrise Projects</h2>
 						</header>
 
-						<p class="list-heading">Recent Projects</p>
-
+						<p class="list-heading">Vancouver</p>
 						<ul>
-							<li>11 Ave Place</li>
-							<li>Engineered Air Office Building</li>
-							<li>Harvest Hills Office Park</li>
-							<li>Royal Canadian Legion</li>
-							<li>Calgary Courts Center Ph2</li>
+							<li>17 West</li>
+							<li>Ventus</li>
+							<li>Chloe</li>
+						</ul>
+						<p class="list-heading">Calgary</p>
+						<ul>
+							<li>Ezra on Riley Park</li>
+							<li>Gateway</li>
+							<li>Children's Cottage</li>
+							<li>Parkside</li>
 						</ul>
 
 						<ul class="actions">
@@ -396,10 +400,10 @@
 			  }
 
 				function slideSwitchCom() {
-			    var $active = $('#commercialpics div.main');
-			    if ( $active.length == 0 ) $active = $('#commercialpics div:last');
+			    var $active = $('#midlowrisepics div.main');
+			    if ( $active.length == 0 ) $active = $('#midlowrisepics div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#commercialpics div:first');
+			      : $('#midlowrisepics div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')
