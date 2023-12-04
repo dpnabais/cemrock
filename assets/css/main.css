@@ -3892,7 +3892,8 @@
 		#corespics,
 		#architecturalpics,
 		#pavingpics,
-		#zoompics{
+		#zoompics,
+		#zoompics2{
 			position: relative;
 			width: 100%;
 		}

@@ -56,26 +56,8 @@
 
 
 				<section id="projectzoom" class="spotlight style2 right">
-					<div id="zoompics">
 
-						<?php
-						    $dirRes  = opendir("./images/formwork/highrise/oakridge");
-						    $dirtxtRes = "./images/formwork/highrise/oakridge";
-						    while (($filenameRes = readdir($dirRes)) !==false) {
-						      $filesRes[] = $filenameRes;
-						    }
-						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
-						    sort($imagesRes);
-						    for ($i = 0; $i < count($imagesRes); $i++){
-						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
-						    }
-								$dirRes = closedir();
-						?>
-
-						</div>
-
-
-						<div class="content">
+				<div class="content">
 						
 						<img id="zoomlogo" src="./images/formwork/highrise/oakridge/4wpcs9b1.jpeg">
 
@@ -93,6 +75,27 @@
 							<li><a href="#" class="button" style='display:none;'>Learn More</a></li>
 						</ul>
 					</div>
+
+					<div id="zoompics">
+
+						<?php
+						    $dirRes  = opendir("./images/formwork/highrise/oakridge");
+						    $dirtxtRes = "./images/formwork/highrise/oakridge";
+						    while (($filenameRes = readdir($dirRes)) !==false) {
+						      $filesRes[] = $filenameRes;
+						    }
+						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
+						    sort($imagesRes);
+						    for ($i = 0; $i < count($imagesRes); $i++){
+						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
+						    }
+								$dirRes = closedir();
+						?>
+
+					</div>
+
+
+
 					<a href="#commercial" class="goto-next scrolly">Next</a>
 				</section>
 
