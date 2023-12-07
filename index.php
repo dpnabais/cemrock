@@ -26,7 +26,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<img id="logo" src="images/logo_cr_t2.png">
+					<img id="logo" src="images/CemrockLogo_800_trans.png">
 					<nav id="nav">
 						<ul>
 				      <!-- <li><a href="#banner"     class="scrolly"> Home</a></li> -->

@@ -3461,7 +3461,7 @@
 
 	#formworkpics,
 	#highrisepics ,
-	#institutionalpics,
+	#multifamilypics,
 	#architecturalpics,
 	#flatworkpics,
 	#midlowrisepics,
@@ -3492,7 +3492,7 @@
 	#flatworkpics      div,
 	#highrisepics   div,
 	#midlowrisepics    div,
-	#institutionalpics div,
+	#multifamilypics div,
 	#corespics         div,
 	#architecturalpics div,Ccc2432
 
@@ -3530,7 +3530,7 @@
 	#flatworkpics      div.main,
 	#highrisepics      div.main,
 	#midlowrisepics    div.main,
-	#institutionalpics div.main,
+	#multifamilypics div.main,
 	#corespics         div.main,
 	#architecturalpics div.main,
 	#pavingpics        div.main,
@@ -3543,7 +3543,7 @@
 	#flatworkpics      div.last-main,
 	#highrisepics      div.last-main,
 	#midlowrisepics    div.last-main,
-	#institutionalpics div.last-main,
+	#multifamilypics div.last-main,
 	#corespics         div.last-main,
 	#architecturalpics div.last-main,
 	#pavingpics        div.last-main,
@@ -3803,6 +3803,10 @@
 				justify-content: space-around;
 			}
 
+			#header #logo{
+				height: 60px;
+			}
+
 	}
 
 	/*
@@ -3862,6 +3866,12 @@
 				padding: 4.5em 0;
 			}
 
+		/* Header */
+
+		#header #logo{
+			height: 55px;
+		}
+
 	}
 
 	/*
@@ -3888,7 +3898,7 @@
 		#flatworkpics,
 		#highrisepics ,
 		#midlowrisepics,
-		#institutionalpics,
+		#multifamilypics,
 		#corespics,
 		#architecturalpics,
 		#pavingpics,
@@ -3899,7 +3909,7 @@
 		}
 
 		#header #logo{
-			height: 50px;
+			height: 55px;
 		}
 
 		#header ul~ul{
@@ -4388,7 +4398,7 @@
 
 					#formworkpics,
 					#highrisepics ,
-					#institutionalpics,
+					#multifamilypics,
 					#architecturalpics,
 					#flatworkpics,
 					#midlowrisepics,

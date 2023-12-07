@@ -16,7 +16,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<img id="logo" src="images/logo_cr_t2.png">
+					<img id="logo" src="images/CemrockLogo_800_trans.png">
 					<nav id="nav">
 
 						<ul>
@@ -25,7 +25,7 @@
 							<ul>
 								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
 								<li><a href="#midlowrise"    class="scrolly"> Mid/Lowrise</a></li>
-								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
+								<li><a href="#multifamily" class="scrolly"> Multifamily</a></li>
 								<li><a href="#cores"         class="scrolly"> Cores</a></li>
 								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
 							</ul>
@@ -162,22 +162,22 @@
 							<li><a href="#" class="button" style='display:none;'>Learn More</a></li>
 						</ul>
 					</div>
-					<a href="#institutional" class="goto-next scrolly">Next</a>
+					<a href="#multifamily" class="goto-next scrolly">Next</a>
 				</section>
 
 
-			<!-- INSTITUTIONAL -->
+			<!-- MULTIFAMILY -->
 
-				<section id="institutional" class="spotlight style2 right">
+				<section id="multifamily" class="spotlight style2 right">
 
-					<div id="institutionalpics">
+					<div id="multifamilypics">
 
 						<!-- build the divs in random order -->
 						<?php
 
 								#open the working directory into $dir
-								$dirIns  = opendir("./images/formwork/institutional");
-								$dirtxtIns = "./images/formwork/institutional";
+								$dirIns  = opendir("./images/formwork/multifamily");
+								$dirtxtIns = "./images/formwork/multifamily";
 
 								#store ALL the files in $files[]
 								while (($filenameIns = readdir($dirIns)) !==false) {
@@ -186,7 +186,7 @@
 								#take only .jpg into $images[]
 								$imagesIns=preg_grep ('/\.jpg$/i', $filesIns);
 								#randomize!
-								#shuffle($imagesIns);
+								sort($imagesIns);
 								#spit out all the <div>s
 								for ($i = 0; $i < count($imagesIns); $i++){
 									echo "<div style=\"background-image: url('".$dirtxtIns."/".$imagesIns[$i]."');\"></div>";
@@ -199,16 +199,20 @@
 
 					<div class="content">
 						<header>
-							<h2>Institutional Projects</h2>
+							<h2>Multifamily Projects</h2>
 						</header>
 
-						<p class="list-heading">Recent Projects</p>
+						<p class="list-heading">Calgary</p>
 
 						<ul>
-							<li>University of Calgary - Student Residences</li>
-							<li>Mount Royal University - Conservatory and Bella Concert Hall</li>
-							<li>CCIT Office Expansion</li>
-							<li>Taylor Family Digital Library JV</li>
+							<li>Truman North</li>
+							<li>Savanna</li>
+							<li>Cavallos</li>
+							<li>Mulberry</li>
+							<li>Garneau</li>
+							<li>1741</li>
+							<li>Orchard Sky</li>
+							<li>Skymills</li>
 						</ul>
 
 					</div>
@@ -216,7 +220,7 @@
 				</section>
 
 
-				<!-- Cores -->
+				<!-- COMMERCIAL -->
 
 					<section id="cores" class="spotlight style3 left">
 
@@ -413,10 +417,10 @@
 			  }
 
 				function slideSwitchIns() {
-			    var $active = $('#institutionalpics div.main');
-			    if ( $active.length == 0 ) $active = $('#institutionalpics div:last');
+			    var $active = $('#multifamilypics div.main');
+			    if ( $active.length == 0 ) $active = $('#multifamilypics div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#institutionalpics div:first');
+			      : $('#multifamilypics div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')
