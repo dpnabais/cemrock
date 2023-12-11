@@ -26,7 +26,7 @@
 								<li><a href="#highrise"   class="scrolly"> Highrise</a></li>
 								<li><a href="#midlowrise"    class="scrolly"> Mid/Lowrise</a></li>
 								<li><a href="#multifamily" class="scrolly"> Multifamily</a></li>
-								<li><a href="#cores"         class="scrolly"> Cores</a></li>
+								<li><a href="#commercial"         class="scrolly"> Commercial</a></li>
 								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
 							</ul>
 							</li>
@@ -216,36 +216,36 @@
 						</ul>
 
 					</div>
-					<a href="#cores" class="goto-next scrolly">Next</a>
+					<a href="#commercial" class="goto-next scrolly">Next</a>
 				</section>
 
 
 				<!-- COMMERCIAL -->
 
-					<section id="cores" class="spotlight style3 left">
+					<section id="commercial" class="spotlight style3 left">
 
-						<div id="corespics">
+						<div id="commercialpics">
 
 							<!-- build the divs in random order -->
 							<?php
 
 									#open the working directory into $dir
-									$dirCor  = opendir("./images/formwork/cores");
-									$dirtxtCor = "./images/formwork/cores";
+									$dirCom  = opendir("./images/formwork/commercial");
+									$dirtxtCom = "./images/formwork/commercial";
 
 									#store ALL the files in $files[]
-									while (($filenameCor = readdir($dirCor)) !==false) {
-										$filesCor[] = $filenameCor;
+									while (($filenameCom = readdir($dirCom)) !==false) {
+										$filesCom[] = $filenameCom;
 									}
 									#take only .jpg into $images[]
-									$imagesCor=preg_grep ('/\.jpg$/i', $filesCor);
+									$imagesCom=preg_grep ('/\.jpg$/i', $filesCom);
 									#randomize!
-									#shuffle($imagesCor);
+									sort($imagesCom);
 									#spit out all the <div>s
-									for ($i = 0; $i < count($imagesCor); $i++){
-										echo "<div style=\"background-image: url('".$dirtxtCor."/".$imagesCor[$i]."');\"></div>";
+									for ($i = 0; $i < count($imagesCom); $i++){
+										echo "<div style=\"background-image: url('".$dirtxtCom."/".$imagesCom[$i]."');\"></div>";
 									}
-									$dirCor = closedir();
+									$dirCom = closedir();
 							?>
 							</div>
 
@@ -253,15 +253,19 @@
 
 						<div class="content">
 							<header>
-								<h2>Freestanding Cores</h2>
+								<h2>Commercial</h2>
 							</header>
 
-							<p class="list-heading">Recent Projects</p>
+							<p class="list-heading">Calgary</p>
 
 							<ul>
-								<li>All Seniors Care - Sage Hill</li>
-								<li>All Seniors Care - Mactaggart</li>
-								<li>Westbrook Office Building</li>
+								<li>Alt Hotel</li>
+								<li>Riverwalk</li>
+								<li>11 Ave Place</li>
+								<li>Engineered Air Office Bldg.</li>
+								<li>Harvest Hills Office Park</li>
+								<li>Royal Canadian Legion</li>
+								<li>Calgary Courts Center Ph2</li>
 							</ul>
 
 						</div>
@@ -289,7 +293,7 @@
 										#take only .jpg into $images[]
 										$imagesArc=preg_grep ('/\.jpg$/i', $filesArc);
 										#randomize!
-										#shuffle($imagesArc);
+										sort($imagesArc);
 										#spit out all the <div>s
 										for ($i = 0; $i < count($imagesArc); $i++){
 											echo "<div style=\"background-image: url('".$dirtxtArc."/".$imagesArc[$i]."');\"></div>";
@@ -430,10 +434,10 @@
 			  }
 
 				function slideSwitchCor() {
-			    var $active = $('#corespics div.main');
-			    if ( $active.length == 0 ) $active = $('#corespics div:last');
+			    var $active = $('#commercialpics div.main');
+			    if ( $active.length == 0 ) $active = $('#commercialpics div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#corespics div:first');
+			      : $('#commercialpics div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')

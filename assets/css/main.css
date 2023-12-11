@@ -3465,7 +3465,7 @@
 	#architecturalpics,
 	#flatworkpics,
 	#midlowrisepics,
-	#corespics,
+	#commercialpics,
 	#pavingpics,
 	#zoompics,
 	#zoompics2{
@@ -3480,7 +3480,7 @@
 	}
 
 	#midlowrisepics,
-	#corespics,
+	#commercialpics,
 	#pavingpics,
 	#flatworkpics,
 	#zoompics2{
@@ -3493,7 +3493,7 @@
 	#highrisepics   div,
 	#midlowrisepics    div,
 	#multifamilypics div,
-	#corespics         div,
+	#commercialpics         div,
 	#architecturalpics div,Ccc2432
 
 	#pavingpics div,
@@ -3531,7 +3531,7 @@
 	#highrisepics      div.main,
 	#midlowrisepics    div.main,
 	#multifamilypics div.main,
-	#corespics         div.main,
+	#commercialpics         div.main,
 	#architecturalpics div.main,
 	#pavingpics        div.main,
 	#zoompics          div.main,
@@ -3544,7 +3544,7 @@
 	#highrisepics      div.last-main,
 	#midlowrisepics    div.last-main,
 	#multifamilypics div.last-main,
-	#corespics         div.last-main,
+	#commercialpics         div.last-main,
 	#architecturalpics div.last-main,
 	#pavingpics        div.last-main,
 	#zoompics          div.last-main,
@@ -3899,7 +3899,7 @@
 		#highrisepics ,
 		#midlowrisepics,
 		#multifamilypics,
-		#corespics,
+		#commercialpics,
 		#architecturalpics,
 		#pavingpics,
 		#zoompics,
@@ -4402,7 +4402,7 @@
 					#architecturalpics,
 					#flatworkpics,
 					#midlowrisepics,
-					#corespics,
+					#commercialpics,
 					#zoompics{
 						width: 100%;
 
