@@ -27,7 +27,7 @@
 								<li><a href="#midlowrise"    class="scrolly"> Mid/Lowrise</a></li>
 								<li><a href="#multifamily" class="scrolly"> Multifamily</a></li>
 								<li><a href="#commercial"         class="scrolly"> Commercial</a></li>
-								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
+								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
 							</ul>
 							</li>
 							<li><a href="index.php#three"      class="scrolly" > Flatwork</a></li>
@@ -57,17 +57,17 @@
 					<div id="highrisepics">
 
 						<?php
-						    $dirRes  = opendir("./images/formwork/highrise");
-						    $dirtxtRes = "./images/formwork/highrise";
-						    while (($filenameRes = readdir($dirRes)) !==false) {
-						      $filesRes[] = $filenameRes;
+						    $dirHig  = opendir("./images/formwork/highrise");
+						    $dirtxtHig = "./images/formwork/highrise";
+						    while (($filenameHig = readdir($dirHig)) !==false) {
+						      $filesHig[] = $filenameHig;
 						    }
-						    $imagesRes = preg_grep ('/\.jpg$/i', $filesRes);
-						    sort($imagesRes);
-						    for ($i = 0; $i < count($imagesRes); $i++){
-						      echo "<div style=\"background-image: url('".$dirtxtRes."/".$imagesRes[$i]."');\"></div>";
+						    $imagesHig = preg_grep ('/\.jpg$/i', $filesHig);
+						    sort($imagesHig);
+						    for ($i = 0; $i < count($imagesHig); $i++){
+						      echo "<div style=\"background-image: url('".$dirtxtHig."/".$imagesHig[$i]."');\"></div>";
 						    }
-								$dirRes = closedir();
+								$dirHig = closedir();
 						?>
 
 						</div>
@@ -118,22 +118,22 @@
 						<?php
 
 								#open the working directory into $dir
-								$dirCom  = opendir("./images/formwork/midlowrise");
-								$dirtxtCom = "./images/formwork/midlowrise";
+								$dirMid  = opendir("./images/formwork/midlowrise");
+								$dirtxtMid = "./images/formwork/midlowrise";
 
 								#store ALL the files in $files[]
-								while (($filenameCom = readdir($dirCom)) !==false) {
-									$filesCom[] = $filenameCom;
+								while (($filenameMid = readdir($dirMid)) !==false) {
+									$filesMid[] = $filenameMid;
 								}
 								#take only .jpg into $images[]
-								$imagesCom=preg_grep ('/\.jpg$/i', $filesCom);
+								$imagesMid=preg_grep ('/\.jpg$/i', $filesMid);
 								#randomize!
-								sort($imagesCom);
+								sort($imagesMid);
 								#spit out all the <div>s
-								for ($i = 0; $i < count($imagesCom); $i++){
-									echo "<div style=\"background-image: url('".$dirtxtCom."/".$imagesCom[$i]."');\"></div>";
+								for ($i = 0; $i < count($imagesMid); $i++){
+									echo "<div style=\"background-image: url('".$dirtxtMid."/".$imagesMid[$i]."');\"></div>";
 								}
-								$dirCom = closedir();
+								$dirMid = closedir();
 						?>
 						</div>
 
@@ -176,22 +176,22 @@
 						<?php
 
 								#open the working directory into $dir
-								$dirIns  = opendir("./images/formwork/multifamily");
-								$dirtxtIns = "./images/formwork/multifamily";
+								$dirMul  = opendir("./images/formwork/multifamily");
+								$dirtxtMul = "./images/formwork/multifamily";
 
 								#store ALL the files in $files[]
-								while (($filenameIns = readdir($dirIns)) !==false) {
-									$filesIns[] = $filenameIns;
+								while (($filenameMul = readdir($dirMul)) !==false) {
+									$filesMul[] = $filenameMul;
 								}
 								#take only .jpg into $images[]
-								$imagesIns=preg_grep ('/\.jpg$/i', $filesIns);
+								$imagesMul=preg_grep ('/\.jpg$/i', $filesMul);
 								#randomize!
-								sort($imagesIns);
+								sort($imagesMul);
 								#spit out all the <div>s
-								for ($i = 0; $i < count($imagesIns); $i++){
-									echo "<div style=\"background-image: url('".$dirtxtIns."/".$imagesIns[$i]."');\"></div>";
+								for ($i = 0; $i < count($imagesMul); $i++){
+									echo "<div style=\"background-image: url('".$dirtxtMul."/".$imagesMul[$i]."');\"></div>";
 								}
-								$dirIns = closedir();
+								$dirMul = closedir();
 						?>
 						</div>
 
@@ -269,36 +269,36 @@
 							</ul>
 
 						</div>
-						<a href="#architectural" class="goto-next scrolly">Next</a>
+						<a href="#institutional" class="goto-next scrolly">Next</a>
 					</section>
 
 
-					<!-- ARCHITECTURAL -->
+					<!-- INSTITUTIONAL -->
 
-						<section id="architectural" class="spotlight style3 right">
+						<section id="institutional" class="spotlight style3 right">
 
-							<div id="architecturalpics">
+							<div id="institutionalpics">
 
 								<!-- build the divs in random order -->
 								<?php
 
 										#open the working directory into $dir
-										$dirArc  = opendir("./images/formwork/architectural");
-										$dirtxtArc = "./images/formwork/architectural";
+										$dirIns  = opendir("./images/formwork/institutional");
+										$dirtxtIns = "./images/formwork/institutional";
 
 										#store ALL the files in $files[]
-										while (($filenameArc = readdir($dirArc)) !==false) {
-											$filesArc[] = $filenameArc;
+										while (($filenameIns = readdir($dirIns)) !==false) {
+											$filesIns[] = $filenameIns;
 										}
 										#take only .jpg into $images[]
-										$imagesArc=preg_grep ('/\.jpg$/i', $filesArc);
+										$imagesIns=preg_grep ('/\.jpg$/i', $filesIns);
 										#randomize!
-										sort($imagesArc);
+										sort($imagesIns);
 										#spit out all the <div>s
-										for ($i = 0; $i < count($imagesArc); $i++){
-											echo "<div style=\"background-image: url('".$dirtxtArc."/".$imagesArc[$i]."');\"></div>";
+										for ($i = 0; $i < count($imagesIns); $i++){
+											echo "<div style=\"background-image: url('".$dirtxtIns."/".$imagesIns[$i]."');\"></div>";
 										}
-										$dirArc = closedir();
+										$dirIns = closedir();
 								?>
 								</div>
 
@@ -306,17 +306,19 @@
 
 							<div class="content">
 								<header>
-									<h2>Architectural Exposed Concrete</h2>
+									<h2>Institutional</h2>
 								</header>
-<!--
-								<p>Recent Projects:</p>
+
+								<p class="list-heading">Calgary</p>
 
 								<ul>
-									<li>All Seniors Care - Sage Hill</li>
-									<li>All Seniors Care - Mactaggart</li>
-									<li>Westbrook</li>
+									<li>One 12</li>
+									<li>University of Calgary - Student Residences</li>
+									<li>Mount Royal University - Conservatory and Bella Concert Hall</li>
+									<li>CCIT Office Expansion</li>
+									<li>Taylor Family Digital Library JV</li>
 								</ul>
--->
+
 							</div>
 							<!-- <a href="#four" class="goto-next scrolly">Next</a>-->
 						</section>
@@ -394,7 +396,7 @@
 			</script>
 
 			<script>
-			  function slideSwitchRes() {
+			  function slideSwitchHig() {
 			    var $active = $('#highrisepics div.main');
 			    if ( $active.length == 0 ) $active = $('#highrisepics div:last');
 			    var $next =  $active.next().length ? $active.next()
@@ -407,7 +409,7 @@
 			      });
 			  }
 
-				function slideSwitchCom() {
+				function slideSwitchMid() {
 			    var $active = $('#midlowrisepics div.main');
 			    if ( $active.length == 0 ) $active = $('#midlowrisepics div:last');
 			    var $next =  $active.next().length ? $active.next()
@@ -420,7 +422,7 @@
 			      });
 			  }
 
-				function slideSwitchIns() {
+				function slideSwitchMul() {
 			    var $active = $('#multifamilypics div.main');
 			    if ( $active.length == 0 ) $active = $('#multifamilypics div:last');
 			    var $next =  $active.next().length ? $active.next()
@@ -433,7 +435,7 @@
 			      });
 			  }
 
-				function slideSwitchCor() {
+				function slideSwitchCom() {
 			    var $active = $('#commercialpics div.main');
 			    if ( $active.length == 0 ) $active = $('#commercialpics div:last');
 			    var $next =  $active.next().length ? $active.next()
@@ -446,11 +448,11 @@
 			      });
 			  }
 
-				function slideSwitchArc() {
-			    var $active = $('#architecturalpics div.main');
-			    if ( $active.length == 0 ) $active = $('#architecturalpics div:last');
+				function slideSwitchIns() {
+			    var $active = $('#institutionalpics div.main');
+			    if ( $active.length == 0 ) $active = $('#institutionalpics div:last');
 			    var $next =  $active.next().length ? $active.next()
-			      : $('#architecturalpics div:first');
+			      : $('#institutionalpics div:first');
 			    $active.addClass('last-main');
 			    $next.css({opacity: 0.0})
 			      .addClass('main')
@@ -460,11 +462,11 @@
 			  }
 
 			  $(function() {
-			    setInterval( "slideSwitchRes()", 4100 );
-					setInterval( "slideSwitchCom()", 3800 );
-					setInterval( "slideSwitchIns()", 3950 );
-					setInterval( "slideSwitchCor()", 4000 );
-					setInterval( "slideSwitchArc()", 3850 );
+			    	setInterval( "slideSwitchHig()", 4100 );
+					setInterval( "slideSwitchMid()", 3800 );
+					setInterval( "slideSwitchMul()", 3950 );
+					setInterval( "slideSwitchCom()", 3000 );
+					setInterval( "slideSwitchIns()", 3850 );
 			  });
 			</script>
 
