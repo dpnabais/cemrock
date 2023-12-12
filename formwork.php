@@ -28,6 +28,7 @@
 								<li><a href="#multifamily" class="scrolly"> Multifamily</a></li>
 								<li><a href="#commercial"         class="scrolly"> Commercial</a></li>
 								<li><a href="#institutional" class="scrolly"> Institutional</a></li>
+								<li><a href="#architectural" class="scrolly"> Architectural</a></li>
 							</ul>
 							</li>
 							<li><a href="index.php#three"      class="scrolly" > Flatwork</a></li>
@@ -320,39 +321,62 @@
 								</ul>
 
 							</div>
-							<!-- <a href="#four" class="goto-next scrolly">Next</a>-->
+							<a href="#architectural" class="goto-next scrolly">Next</a>
 						</section>
 
-			<!-- Five -->
-			<!--
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>About Us</h2>
-							<p>We look forward to working with you.</p>
-						</header>
+					<!-- ARCHITECTURAL -->
 
-						<p><strong>Cemrock Concrete &amp; Construction Ltd.</strong> has been
-							involved in the cast-in-place concrete construction business since our
-							inception in 2003.</p>
-						<p>During this time we have had the pleasure of developing successful
-							relationships with Alberta's construction leaders. We conduct our
-							business in a professional manner and have developed a reputation for
-							providing exceptional concrete work.</p>
-						<p>We continue to build on our reputation through our:<br>
-						<ul>
-							<li style="list-style:none;">COR certified safety program (Alberta Construction Safety Association)</li>
-							<li style="list-style:none;">Experienced and Knowledgeable Field Personnel</li>
-							<li style="list-style:none;">Quick Response Estimating (Budgets, Bidding, Revisions)</li>
-							<li style="list-style:none;">Thorough Planning/Organization (Schedules, Submissions)</li>
-						</ul>
-						<br>
-						<br>
+						<section id="architectural" class="spotlight style3 left">
+
+						<div id="architecturalpics">
+
+							<!-- build the divs in random order -->
+							<?php
+
+									#open the working directory into $dir
+									$dirArc  = opendir("./images/formwork/architectural");
+									$dirtxtArc = "./images/formwork/architectural";
+
+									#store ALL the files in $files[]
+									while (($filenameArc = readdir($dirArc)) !==false) {
+										$filesArc[] = $filenameArc;
+									}
+									#take only .jpg into $images[]
+									$imagesArc=preg_grep ('/\.jpg$/i', $filesArc);
+									#randomize!
+									sort($imagesArc);
+									#spit out all the <div>s
+									for ($i = 0; $i < count($imagesArc); $i++){
+										echo "<div style=\"background-image: url('".$dirtxtArc."/".$imagesArc[$i]."');\"></div>";
+									}
+									$dirArc = closedir();
+							?>
+							</div>
 
 
-					</div>
-				</section>
--->
+
+						<div class="content">
+							<header>
+								<h2>Architectural</h2>
+							</header>
+
+							<p class="list-heading">Calgary</p>
+
+							<ul>
+								<li>Radio Park</li>
+							</ul>
+
+						</div>
+						<!--<a href="#institutional" class="goto-next scrolly">Next</a>-->
+						</section>
+
+						
+
+
+
+
+
+
 			<!-- Footer -->
 				<footer id="footer">
 					<!--
@@ -407,7 +431,7 @@
 			      .animate({opacity: 1.0}, 750, function() {
 			        $active.removeClass('main last-main');
 			      });
-			  }
+			  	}
 
 				function slideSwitchMid() {
 			    var $active = $('#midlowrisepics div.main');
@@ -420,7 +444,7 @@
 			      .animate({opacity: 1.0}, 750, function() {
 			        $active.removeClass('main last-main');
 			      });
-			  }
+			  	}
 
 				function slideSwitchMul() {
 			    var $active = $('#multifamilypics div.main');
@@ -433,7 +457,7 @@
 			      .animate({opacity: 1.0}, 750, function() {
 			        $active.removeClass('main last-main');
 			      });
-			  }
+			  	}
 
 				function slideSwitchCom() {
 			    var $active = $('#commercialpics div.main');
@@ -446,7 +470,7 @@
 			      .animate({opacity: 1.0}, 750, function() {
 			        $active.removeClass('main last-main');
 			      });
-			  }
+			  	}
 
 				function slideSwitchIns() {
 			    var $active = $('#institutionalpics div.main');
@@ -459,7 +483,20 @@
 			      .animate({opacity: 1.0}, 750, function() {
 			        $active.removeClass('main last-main');
 			      });
-			  }
+			  	}
+
+				function slideSwitchArc() {
+			    var $active = $('#architecturalpics div.main');
+			    if ( $active.length == 0 ) $active = $('#architecturalpics div:last');
+			    var $next =  $active.next().length ? $active.next()
+			      : $('#architecturalpics div:first');
+			    $active.addClass('last-main');
+			    $next.css({opacity: 0.0})
+			      .addClass('main')
+			      .animate({opacity: 1.0}, 750, function() {
+			        $active.removeClass('main last-main');
+			      });
+			  	}
 
 			  $(function() {
 			    	setInterval( "slideSwitchHig()", 4100 );
@@ -467,6 +504,7 @@
 					setInterval( "slideSwitchMul()", 3950 );
 					setInterval( "slideSwitchCom()", 3000 );
 					setInterval( "slideSwitchIns()", 3850 );
+					setInterval( "slideSwitchArc()", 4150 );
 			  });
 			</script>
 

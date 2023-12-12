@@ -3482,6 +3482,7 @@
 
 	#midlowrisepics,
 	#commercialpics,
+	#architecturalpics,
 	#pavingpics,
 	#flatworkpics,
 	#zoompics2{
@@ -3497,8 +3498,9 @@
 	#multifamilypics   div,
 	#commercialpics    div,
 	#architecturalpics div,
-	#pavingpics div,
-	#zoompics div{
+	#pavingpics        div,
+	#zoompics          div,
+	#architecturalpics div{
 		position: absolute;
 		top: 0;
 		left: 0;
