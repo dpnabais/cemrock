@@ -61,7 +61,7 @@
 						
 						<img id="zoomlogo" src="./images/formwork/highrise/oakridge/4wpcs9b1.jpeg">
 
-						<header>
+						<header> 
 							<h2>Oakridge Towers</h2>
 						</header>
 						<p class="list-heading">Client | Contractor</p>

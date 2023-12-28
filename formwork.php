@@ -80,8 +80,8 @@
 						</header>
 						<p class="list-heading">Vancouver</p>
 						<ul>
-							<li><a href="./oakridge.php">Oakridge Tower</a></li>
-							<li><a href="./pacific.php">Pacific</a></li>
+							<li><a href="./highrise.php#oakridge">Oakridge Tower</a></li>
+							<li><a href="./highrise.php#pacific">Pacific</a></li>
 							<li>Polaris</li>
 						</ul>
 						<p class="list-heading">Calgary</p>
